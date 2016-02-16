@@ -1,4 +1,4 @@
-<?php exit;?>a:3:{s:8:"template";a:21:{i:0;s:69:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/index.dwt";i:1;s:83:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/page_header.lbi";i:2;s:76:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/cart.lbi";i:3;s:85:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/category_tree.lbi";i:4;s:77:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/top10.lbi";i:5;s:86:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/promotion_info.lbi";i:6;s:83:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/order_query.lbi";i:7;s:85:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/invoice_query.lbi";i:8;s:81:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/vote_list.lbi";i:9;s:82:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/email_list.lbi";i:10;s:80:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/index_ad.lbi";i:11;s:84:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/new_articles.lbi";i:12;s:91:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/recommend_promotion.lbi";i:13;s:78:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/brands.lbi";i:14;s:86:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/recommend_best.lbi";i:15;s:85:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/recommend_new.lbi";i:16;s:85:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/recommend_hot.lbi";i:17;s:79:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/auction.lbi";i:18;s:81:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/group_buy.lbi";i:19;s:76:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/help.lbi";i:20;s:83:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/page_footer.lbi";}s:7:"expires";i:1455594720;s:8:"maketime";i:1455591120;}<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php exit;?>a:3:{s:8:"template";a:21:{i:0;s:69:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/index.dwt";i:1;s:83:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/page_header.lbi";i:2;s:76:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/cart.lbi";i:3;s:85:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/category_tree.lbi";i:4;s:77:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/top10.lbi";i:5;s:86:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/promotion_info.lbi";i:6;s:83:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/order_query.lbi";i:7;s:85:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/invoice_query.lbi";i:8;s:81:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/vote_list.lbi";i:9;s:82:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/email_list.lbi";i:10;s:80:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/index_ad.lbi";i:11;s:84:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/new_articles.lbi";i:12;s:91:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/recommend_promotion.lbi";i:13;s:78:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/brands.lbi";i:14;s:86:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/recommend_best.lbi";i:15;s:85:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/recommend_new.lbi";i:16;s:85:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/recommend_hot.lbi";i:17;s:79:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/auction.lbi";i:18;s:81:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/group_buy.lbi";i:19;s:76:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/help.lbi";i:20;s:83:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/page_footer.lbi";}s:7:"expires";i:1455612139;s:8:"maketime";i:1455608539;}<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta name="Generator" content="ECSHOP v2.7.3" />
@@ -12,36 +12,6 @@
 <link rel="alternate" type="application/rss+xml" title="RSS|ECSHOP演示站 - Powered by ECShop" href="feed.php" />
 <script type="text/javascript" src="js/common.js"></script><script type="text/javascript" src="js/index.js"></script></head>
 <body>
-<br />
-<b>Deprecated</b>:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>300</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Deprecated</b>:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>493</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
 <script type="text/javascript">
 var process_request = "正在处理您的请求...";
 </script>
@@ -108,7 +78,8 @@ var process_request = "正在处理您的请求...";
    <input name="imageField" type="submit" value="" class="go" style="cursor:pointer;" />
    <a href="search.php?act=advanced_search">高级搜索</a>
    </form>
-</div><div class="blank"></div>
+</div>
+<div class="blank"></div>
 <div class="block clearfix">
   
   <div class="AreaL">
@@ -126,24 +97,9 @@ scrollAmount=3><U><FONT color=red>
     <div class="blank5"></div>
     
   
-<br />
-<b>Deprecated</b>:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>300</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Deprecated</b>:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>493</b><br />
 <div class="cart" id="ECS_CARTINFO">
  554fcae493e564ee0dc75bdf2ebf94cacart_info|a:1:{s:4:"name";s:9:"cart_info";}554fcae493e564ee0dc75bdf2ebf94ca</div>
-<div class="blank5"></div><br />
-<b>Deprecated</b>:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>300</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
+<div class="blank5"></div>
 <div class="box">
  <div class="box_1">
   <div id="category_tree">
@@ -174,14 +130,7 @@ scrollAmount=3><U><FONT color=red>
   </div>
  </div>
 </div>
-<div class="blank5"></div><br />
-<b>Deprecated</b>:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>300</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
+<div class="blank5"></div>
 <div class="box">
  <div class="box_2">
   <div class="top10Tit"></div>
@@ -254,36 +203,21 @@ scrollAmount=3><U><FONT color=red>
     </div>
  </div>
 </div>
-<div class="blank5"></div><br />
-<b>Deprecated</b>:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>300</b><br />
+<div class="blank5"></div>
 <br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
+<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>423</b><br />
 <br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
+<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>423</b><br />
 <br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
+<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>423</b><br />
 <br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
+<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>423</b><br />
 <br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
+<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>423</b><br />
 <br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
+<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>423</b><br />
 <br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Deprecated</b>:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>300</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
+<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>423</b><br />
 <script>var invalid_order_sn = "无效订单号"</script>
 <div class="box">
  <div class="box_1">
@@ -299,16 +233,7 @@ scrollAmount=3><U><FONT color=red>
   </div>
  </div>
 </div>
-<div class="blank5"></div><br />
-<b>Deprecated</b>:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>300</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
+<div class="blank5"></div>
 <style type="text/css">
 .boxCenterList form{display:inline;}
 .boxCenterList form a{color:#404040; text-decoration:underline;}
@@ -325,15 +250,7 @@ scrollAmount=3><U><FONT color=red>
  </div>
 </div>
 <div class="blank5"></div>
-<br />
-<b>Deprecated</b>:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>300</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Deprecated</b>:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>493</b><br />
-554fcae493e564ee0dc75bdf2ebf94cavote|a:1:{s:4:"name";s:4:"vote";}554fcae493e564ee0dc75bdf2ebf94ca<br />
-<b>Deprecated</b>:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>300</b><br />
-<div class="box">
+554fcae493e564ee0dc75bdf2ebf94cavote|a:1:{s:4:"name";s:4:"vote";}554fcae493e564ee0dc75bdf2ebf94ca<div class="box">
  <div class="box_1">
   <h3><span>邮件订阅</span></h3>
   <div class="boxCenterList RelaArticle">
@@ -390,23 +307,7 @@ function check_email()
     <div class="box clearfix">
      <div class="box_1 clearfix">
        <div class="f_l" id="focus">
-       <br />
-<b>Deprecated</b>:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>300</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-  <script type="text/javascript">
+         <script type="text/javascript">
   var swf_width=484;
   var swf_height=200;
   </script>
@@ -417,11 +318,7 @@ function check_email()
         <div class="NewsTit"></div>
         <div class="NewsList tc">
          
-        <br />
-<b>Deprecated</b>:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>300</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<ul>
+        <ul>
   <li>
 	[<a href="article_cat.php?id=12">站内快讯</a>] <a href="article.php?id=33" title="三星SGHU308说明书下载">三星SGHU308说...</a>
 	</li>
@@ -457,31 +354,15 @@ function check_email()
     <div class="clearfix">
       
       <br />
-<b>Deprecated</b>:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>300</b><br />
+<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>423</b><br />
 <br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
+<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>423</b><br />
 <br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
+<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>423</b><br />
       
       <div class="box f_r brandsIe6">
        <div class="box_1 clearfix" id="brands">
-        <br />
-<b>Deprecated</b>:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>300</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-                    <a href="brand.php?id=1"><img src="data/brandlogo/1240803062307572427.gif" alt="诺基亚 (7)" /></a>
+                            <a href="brand.php?id=1"><img src="data/brandlogo/1240803062307572427.gif" alt="诺基亚 (7)" /></a>
                               <a href="brand.php?id=2"><img src="data/brandlogo/1240802922410634065.gif" alt="摩托罗拉 (1)" /></a>
                               <a href="brand.php?id=3"><img src="data/brandlogo/1240803144788047486.gif" alt="多普达 (1)" /></a>
                               <a href="brand.php?id=4"><img src="data/brandlogo/1240803247838195732.gif" alt="飞利浦 (1)" /></a>
@@ -497,26 +378,6 @@ function check_email()
     </div>
     <div class="blank5"></div>
    
-<br />
-<b>Deprecated</b>:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>300</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Deprecated</b>:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>552</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
 <div class="box">
 <div class="box_2 centerPadd">
   <div class="itemTit" id="itemBest">
@@ -602,27 +463,7 @@ function check_email()
 </div>
 </div>
 <div class="blank5"></div>
-  <br />
-<b>Deprecated</b>:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>300</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Deprecated</b>:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>552</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<div class="box">
+  <div class="box">
 <div class="box_2 centerPadd">
   <div class="itemTit New" id="itemNew">
             <h2><a href="javascript:void(0)" onclick="change_tab_style('itemNew', 'h2', this);get_cat_recommend(2, 0);">全部商品</a></h2>
@@ -708,27 +549,7 @@ function check_email()
 </div>
 </div>
 <div class="blank5"></div>
-  <br />
-<b>Deprecated</b>:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>300</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Deprecated</b>:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>552</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<div class="box">
+  <div class="box">
 <div class="box_2 centerPadd">
   <div class="itemTit Hot" id="itemHot">
             <h2><a href="javascript:void(0)" onclick="change_tab_style('itemHot', 'h2', this);get_cat_recommend(3, 0);">全部商品</a></h2>
@@ -815,17 +636,13 @@ function check_email()
 </div>
 <div class="blank5"></div>
   <br />
-<b>Deprecated</b>:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>300</b><br />
+<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>423</b><br />
 <br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
+<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>423</b><br />
 <br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
+<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>423</b><br />
 <br />
-<b>Deprecated</b>:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>300</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
+<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>423</b><br />
   </div>
   
 </div>
@@ -833,15 +650,7 @@ function check_email()
 <div class="block">
   <div class="box">
    <div class="helpTitBg clearfix">
-    <br />
-<b>Deprecated</b>:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>300</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<dl>
+    <dl>
   <dt><a href='article_cat.php?id=5' title="新手上路 ">新手上路 </a></dt>
     <dd><a href="article.php?id=9" title="售后流程">售后流程</a></dd>
     <dd><a href="article.php?id=10" title="购物流程">购物流程</a></dd>
@@ -891,50 +700,6 @@ function check_email()
  </div>
 </div>
 <div class="blank"></div>
-<br />
-<b>Deprecated</b>:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>300</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Deprecated</b>:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>493</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
-<br />
-<b>Strict Standards</b>:  Only variables should be passed by reference in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>422</b><br />
 <div id="bottomNav" class="box">
  <div class="box_1">
   <div class="bNavList clearfix">
@@ -965,9 +730,10 @@ function check_email()
  &copy; 2005-2016 ECSHOP 版权所有，并保留所有权利。<br />
                                                                                      <br />
     554fcae493e564ee0dc75bdf2ebf94caquery_info|a:1:{s:4:"name";s:10:"query_info";}554fcae493e564ee0dc75bdf2ebf94ca<br />
-  <a href="http://www.ecshop.com" target="_blank" style=" font-family:Verdana; font-size:11px;">Powered&nbsp;by&nbsp;<strong><span style="color: #3366FF">ECShop</span>&nbsp;<span style="color: #FF9966">v2.7.3</span></strong></a>&nbsp;<a href="http://www.ecshop.com/license.php?product=ecshop_b2c&url=http%3A%2F%2Fdemo.ecshop.com%2F" target="_blank"
+  <a href="http://www.ecshop.com" target="_blank" style=" font-family:Verdana; font-size:11px;">Powered&nbsp;by&nbsp;<strong><span style="color: #3366FF">ECShop</span>&nbsp;<span style="color: #FF9966">v2.7.3</span></strong></a>&nbsp;<a href="http://www.ecshop.com/license.php?product=ecshop_b2c&url=http%3A%2F%2Fstudy.ecshop.com%2F" target="_blank"
 >&nbsp;&nbsp;Licensed</a><br />
         <div align="left"  id="rss"><a href="feed.php"><img src="themes/default/images/xml_rss2.gif" alt="rss" /></a></div>
  </div>
-</div></body>
+</div>
+</body>
 </html>
