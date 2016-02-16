@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63e93fdc-999a-4f7c-9c68-7a291eacdfde" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/includes/cls_template.php" afterPath="$PROJECT_DIR$/upload/includes/cls_template.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/temp/query_caches/sqlcache_config_file_f4486b94c3c1bcb59abd640461504c87.php" afterPath="$PROJECT_DIR$/upload/temp/query_caches/sqlcache_config_file_f4486b94c3c1bcb59abd640461504c87.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/temp/compiled/group_buy.lbi.php" afterPath="$PROJECT_DIR$/upload/temp/compiled/group_buy.lbi.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/temp/compiled/recommend_promotion.lbi.php" afterPath="$PROJECT_DIR$/upload/temp/compiled/recommend_promotion.lbi.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/temp/compiled/vote.lbi.php" afterPath="$PROJECT_DIR$/upload/temp/compiled/vote.lbi.php" />
     </list>
     <ignored path="ECShop_V2.7.3_UTF8_release1106.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,8 +51,8 @@
       <file leaf-file-name="cls_template.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/upload/includes/cls_template.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33258173">
-              <caret line="555" column="58" selection-start-line="555" selection-start-column="58" selection-end-line="555" selection-end-column="58" />
+            <state vertical-scroll-proportion="0.45095828">
+              <caret line="1079" column="69" selection-start-line="1079" selection-start-column="69" selection-end-line="1079" selection-end-column="69" />
               <folding />
             </state>
           </provider>
@@ -291,8 +294,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/upload/includes/cls_template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33258173">
-          <caret line="555" column="58" selection-start-line="555" selection-start-column="58" selection-end-line="555" selection-end-column="58" />
+        <state vertical-scroll-proportion="0.45095828">
+          <caret line="1079" column="69" selection-start-line="1079" selection-start-column="69" selection-end-line="1079" selection-end-column="69" />
           <folding />
         </state>
       </provider>
