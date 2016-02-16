@@ -343,7 +343,9 @@ function gd_version()
 {
     include_once(ROOT_PATH . 'includes/cls_image.php');
 
-    return cls_image::gd_version();
+//    return cls_image::gd_version();
+    $p = new cls_image();
+    return $p->gd_version();
 }
 
 if (!function_exists('file_get_contents'))
