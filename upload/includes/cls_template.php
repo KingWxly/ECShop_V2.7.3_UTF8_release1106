@@ -420,7 +420,9 @@ class cls_template
         }
         else
         {
-            $tag_sel = array_shift(explode(' ', $tag));
+//            $tag_sel = array_shift(explode(' ', $tag));
+            $tagArr = explode(' ', $tag);
+            $tag_sel = array_shift($tagArr);
             switch ($tag_sel)
             {
                 case 'if':
@@ -550,7 +552,8 @@ class cls_template
     {
         if (strrpos($val, '[') !== false)
         {
-            $val = preg_replace("/\[([^\[\]]*)\]/eis", "'.'.str_replace('$','\$','\\1')", $val);
+//            $val = preg_replace("/\[([^\[\]]*)\]/eis", "'.'.str_replace('$','\$','\\1')", $val);
+            $val = preg_replace_callback("/\[([^\[\]]*)\]/is", "'.'.str_replace('$','\$','\\1')", $val);
         }
 
         if (strrpos($val, '|') !== false)
