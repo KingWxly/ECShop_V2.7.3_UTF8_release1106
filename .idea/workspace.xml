@@ -5,6 +5,8 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/upload/temp/caches/b/category_343E2C70.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/includes/cls_template.php" afterPath="$PROJECT_DIR$/upload/includes/cls_template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/includes/lib_main.php" afterPath="$PROJECT_DIR$/upload/includes/lib_main.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/temp/compiled/recommend_best.lbi.php" afterPath="$PROJECT_DIR$/upload/temp/compiled/recommend_best.lbi.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/temp/query_caches/sqlcache_config_file_f4486b94c3c1bcb59abd640461504c87.php" afterPath="$PROJECT_DIR$/upload/temp/query_caches/sqlcache_config_file_f4486b94c3c1bcb59abd640461504c87.php" />
     </list>
     <ignored path="ECShop_V2.7.3_UTF8_release1106.iws" />
@@ -50,9 +52,38 @@
       <file leaf-file-name="cls_template.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/upload/includes/cls_template.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.40360767">
-              <caret line="496" column="156" selection-start-line="496" selection-start-column="156" selection-end-line="496" selection-end-column="156" />
+            <state vertical-scroll-proportion="0.35625705">
+              <caret line="556" column="139" selection-start-line="556" selection-start-column="139" selection-end-line="556" selection-end-column="139" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lib_main.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/upload/includes/lib_main.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.5333333">
+              <caret line="1330" column="25" selection-start-line="1330" selection-start-column="25" selection-end-line="1330" selection-end-column="25" />
+              <folding>
+                <marker date="1455616757725" expanded="true" signature="1751:1846" placeholder="SELECT speci... ${$GLOBALS['ecs']-&gt;table('user_rank')}" />
+                <marker date="1455616757725" expanded="true" signature="2318:2488" placeholder="SELECT rank_... ${$GLOBALS['ecs']-&gt;table('user_rank')}" />
+                <marker date="1455616757725" expanded="true" signature="2934:3041" placeholder="SELECT rank_... ${$GLOBALS['ecs']-&gt;table('user_rank')}" />
+                <marker date="1455616757725" expanded="true" signature="9260:9300" placeholder="SELECT cat_i... ${$GLOBALS['ecs']-&gt;table('category')}" />
+                <marker date="1455616757725" expanded="true" signature="11045:11226" placeholder="SELECT id, n... ${$GLOBALS['ecs']-&gt;table('template')}" />
+                <marker date="1455616757725" expanded="true" signature="12410:12504" placeholder="SELECT cat_n... ${$GLOBALS['ecs']-&gt;table('article_cat')}" />
+                <marker date="1455616757725" expanded="true" signature="24879:25047" placeholder="SELECT SUM(o... ${$GLOBALS['ecs']-&gt;table('vote_option')}" />
+                <marker date="1455616757725" expanded="true" signature="33967:34461" placeholder="INSERT INTO ${$GLOBALS['ecs']-&gt;table('stats')}... " />
+                <marker date="1455616757725" expanded="true" signature="47209:47320" placeholder="DELETE FROM " />
+                <marker date="1455616757725" expanded="true" signature="47576:47730" placeholder="SELECT COUNT... ${$GLOBALS['ecs']-&gt;table('comment')}" />
+                <marker date="1455616757725" expanded="true" signature="47915:48106" placeholder="SELECT * FRO... ${$GLOBALS['ecs']-&gt;table('comment')}" />
+                <marker date="1455616757725" expanded="true" signature="49007:49105" placeholder="SELECT * FRO... ${$GLOBALS['ecs']-&gt;table('comment')}" />
+                <marker date="1455616757725" expanded="true" signature="54346:54427" placeholder="SELECT user_... ${$GLOBALS['ecs']-&gt;table('users')}" />
+                <marker date="1455616757725" expanded="true" signature="54794:54886" placeholder="SELECT paren... ${$GLOBALS['ecs']-&gt;table('article_cat')}" />
+                <marker date="1455616757725" expanded="true" signature="55083:55180" placeholder="SELECT count... ${$GLOBALS['ecs']-&gt;table('article_cat')}" />
+                <marker date="1455616757725" expanded="true" signature="57208:57248" placeholder="SELECT cat_i... ${$GLOBALS['ecs']-&gt;table('article_cat')}" />
+                <marker date="1455616757725" expanded="true" signature="58489:58691" placeholder="SELECT libra... ${$GLOBALS['ecs']-&gt;table('template')}" />
+                <marker date="1455616757725" expanded="true" signature="59718:59826" placeholder="SELECT * FRO... ${$GLOBALS['ecs']-&gt;table('nav')}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -77,6 +108,7 @@
       <list>
         <option value="E:/xampp/phpMyAdmin/config.inc.php" />
         <option value="$PROJECT_DIR$/upload/data/config.php" />
+        <option value="$PROJECT_DIR$/upload/includes/lib_main.php" />
         <option value="$PROJECT_DIR$/upload/includes/cls_template.php" />
       </list>
     </option>
@@ -264,7 +296,59 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="7" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ECShop_V2.7.3_UTF8_release1106" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ECShop_V2.7.3_UTF8_release1106" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ECShop_V2.7.3_UTF8_release1106" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="upload" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="temp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="caches" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ECShop_V2.7.3_UTF8_release1106" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ECShop_V2.7.3_UTF8_release1106" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ECShop_V2.7.3_UTF8_release1106" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="upload" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="includes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -402,10 +486,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/upload/includes/lib_main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.5333333">
+          <caret line="1330" column="25" selection-start-line="1330" selection-start-column="25" selection-end-line="1330" selection-end-column="25" />
+          <folding>
+            <marker date="1455616757725" expanded="true" signature="1751:1846" placeholder="SELECT speci... ${$GLOBALS['ecs']-&gt;table('user_rank')}" />
+            <marker date="1455616757725" expanded="true" signature="2318:2488" placeholder="SELECT rank_... ${$GLOBALS['ecs']-&gt;table('user_rank')}" />
+            <marker date="1455616757725" expanded="true" signature="2934:3041" placeholder="SELECT rank_... ${$GLOBALS['ecs']-&gt;table('user_rank')}" />
+            <marker date="1455616757725" expanded="true" signature="9260:9300" placeholder="SELECT cat_i... ${$GLOBALS['ecs']-&gt;table('category')}" />
+            <marker date="1455616757725" expanded="true" signature="11045:11226" placeholder="SELECT id, n... ${$GLOBALS['ecs']-&gt;table('template')}" />
+            <marker date="1455616757725" expanded="true" signature="12410:12504" placeholder="SELECT cat_n... ${$GLOBALS['ecs']-&gt;table('article_cat')}" />
+            <marker date="1455616757725" expanded="true" signature="24879:25047" placeholder="SELECT SUM(o... ${$GLOBALS['ecs']-&gt;table('vote_option')}" />
+            <marker date="1455616757725" expanded="true" signature="33967:34461" placeholder="INSERT INTO ${$GLOBALS['ecs']-&gt;table('stats')}... " />
+            <marker date="1455616757725" expanded="true" signature="47209:47320" placeholder="DELETE FROM " />
+            <marker date="1455616757725" expanded="true" signature="47576:47730" placeholder="SELECT COUNT... ${$GLOBALS['ecs']-&gt;table('comment')}" />
+            <marker date="1455616757725" expanded="true" signature="47915:48106" placeholder="SELECT * FRO... ${$GLOBALS['ecs']-&gt;table('comment')}" />
+            <marker date="1455616757725" expanded="true" signature="49007:49105" placeholder="SELECT * FRO... ${$GLOBALS['ecs']-&gt;table('comment')}" />
+            <marker date="1455616757725" expanded="true" signature="54346:54427" placeholder="SELECT user_... ${$GLOBALS['ecs']-&gt;table('users')}" />
+            <marker date="1455616757725" expanded="true" signature="54794:54886" placeholder="SELECT paren... ${$GLOBALS['ecs']-&gt;table('article_cat')}" />
+            <marker date="1455616757725" expanded="true" signature="55083:55180" placeholder="SELECT count... ${$GLOBALS['ecs']-&gt;table('article_cat')}" />
+            <marker date="1455616757725" expanded="true" signature="57208:57248" placeholder="SELECT cat_i... ${$GLOBALS['ecs']-&gt;table('article_cat')}" />
+            <marker date="1455616757725" expanded="true" signature="58489:58691" placeholder="SELECT libra... ${$GLOBALS['ecs']-&gt;table('template')}" />
+            <marker date="1455616757725" expanded="true" signature="59718:59826" placeholder="SELECT * FRO... ${$GLOBALS['ecs']-&gt;table('nav')}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/upload/includes/cls_template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40360767">
-          <caret line="496" column="156" selection-start-line="496" selection-start-column="156" selection-end-line="496" selection-end-column="156" />
+        <state vertical-scroll-proportion="0.35625705">
+          <caret line="556" column="139" selection-start-line="556" selection-start-column="139" selection-end-line="556" selection-end-column="139" />
           <folding />
         </state>
       </provider>

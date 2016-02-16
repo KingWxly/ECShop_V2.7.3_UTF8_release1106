@@ -1,11 +1,11 @@
-<?php exit;?>a:3:{s:8:"template";a:11:{i:0;s:72:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/category.dwt";i:1;s:83:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/page_header.lbi";i:2;s:79:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/ur_here.lbi";i:3;s:76:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/cart.lbi";i:4;s:85:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/category_tree.lbi";i:5;s:79:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/history.lbi";i:6;s:86:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/recommend_best.lbi";i:7;s:82:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/goods_list.lbi";i:8;s:77:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/pages.lbi";i:9;s:76:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/help.lbi";i:10;s:83:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/page_footer.lbi";}s:7:"expires";i:1455620133;s:8:"maketime";i:1455616533;}<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php exit;?>a:3:{s:8:"template";a:11:{i:0;s:72:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/category.dwt";i:1;s:83:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/page_header.lbi";i:2;s:79:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/ur_here.lbi";i:3;s:76:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/cart.lbi";i:4;s:85:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/category_tree.lbi";i:5;s:79:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/history.lbi";i:6;s:86:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/recommend_best.lbi";i:7;s:82:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/goods_list.lbi";i:8;s:77:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/pages.lbi";i:9;s:76:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/help.lbi";i:10;s:83:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/page_footer.lbi";}s:7:"expires";i:1455620663;s:8:"maketime";i:1455617063;}<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta name="Generator" content="ECSHOP v2.7.3" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="Keywords" content="" />
 <meta name="Description" content="" />
-<title>GSM手机_手机类型_ECSHOP演示站 - Powered by ECShop</title>
+<title>摩托罗拉_GSM手机_手机类型_ECSHOP演示站 - Powered by ECShop</title>
 <link rel="shortcut icon" href="favicon.ico" />
 <link rel="icon" href="animated_favicon.gif" type="image/gif" />
 <link href="themes/default/style.css" rel="stylesheet" type="text/css" />
@@ -80,7 +80,7 @@ var process_request = "正在处理您的请求...";
 </div>
 <div class="block box">
  <div id="ur_here">
-  当前位置: <a href=".">首页</a> <code>&gt;</code> <a href="category.php?id=1">手机类型</a> <code>&gt;</code> <a href="category.php?id=3">GSM手机</a> </div>
+  当前位置: <a href=".">首页</a> <code>&gt;</code> <a href="category.php?id=1">手机类型</a> <code>&gt;</code> <a href="category.php?id=3">GSM手机</a> <code>&gt;</code> 摩托罗拉 </div>
 </div>
 <div class="blank"></div>
 <div class="block clearfix">
@@ -151,9 +151,9 @@ document.getElementById('history_list').innerHTML = '您已清空最近浏览过
 			<h3><span>商品筛选</span></h3>
 						<div class="screeBox">
 			  <strong>品牌：</strong>
-														<span>全部</span>
+														<a href="category.php?id=3&amp;price_min=0&amp;price_max=0">全部</a>&nbsp;
 																			<a href="category.php?id=3&amp;brand=1&amp;price_min=0&amp;price_max=0">诺基亚</a>&nbsp;
-																			<a href="category.php?id=3&amp;brand=2&amp;price_min=0&amp;price_max=0">摩托罗拉</a>&nbsp;
+																			<span>摩托罗拉</span>
 																			<a href="category.php?id=3&amp;brand=3&amp;price_min=0&amp;price_max=0">多普达</a>&nbsp;
 																			<a href="category.php?id=3&amp;brand=4&amp;price_min=0&amp;price_max=0">飞利浦</a>&nbsp;
 																			<a href="category.php?id=3&amp;brand=5&amp;price_min=0&amp;price_max=0">夏新</a>&nbsp;
@@ -165,91 +165,46 @@ document.getElementById('history_list').innerHTML = '您已清空最近浏览过
 									<div class="screeBox">
 			<strong>价格：</strong>
 											<span>全部</span>
-															<a href="category.php?id=3&amp;price_min=200&amp;price_max=1700">200&nbsp;-&nbsp;1700</a>&nbsp;
-															<a href="category.php?id=3&amp;price_min=1700&amp;price_max=3200">1700&nbsp;-&nbsp;3200</a>&nbsp;
-															<a href="category.php?id=3&amp;price_min=4700&amp;price_max=6200">4700&nbsp;-&nbsp;6200</a>&nbsp;
+															<a href="category.php?id=3&amp;brand=2&amp;price_min=200&amp;price_max=1700">200&nbsp;-&nbsp;1700</a>&nbsp;
+															<a href="category.php?id=3&amp;brand=2&amp;price_min=1700&amp;price_max=3200">1700&nbsp;-&nbsp;3200</a>&nbsp;
+															<a href="category.php?id=3&amp;brand=2&amp;price_min=4700&amp;price_max=6200">4700&nbsp;-&nbsp;6200</a>&nbsp;
 										</div>
 						      <div class="screeBox">
 			<strong>颜色 :</strong>
 											<span>全部</span>
-															<a href="category.php?id=3&amp;price_min=0&amp;price_max=0&amp;filter_attr=167.0.0.0">灰色</a>&nbsp;
-															<a href="category.php?id=3&amp;price_min=0&amp;price_max=0&amp;filter_attr=198.0.0.0">白色</a>&nbsp;
-															<a href="category.php?id=3&amp;price_min=0&amp;price_max=0&amp;filter_attr=197.0.0.0">金色</a>&nbsp;
-															<a href="category.php?id=3&amp;price_min=0&amp;price_max=0&amp;filter_attr=163.0.0.0">黑色</a>&nbsp;
+															<a href="category.php?id=3&amp;brand=2&amp;price_min=0&amp;price_max=0&amp;filter_attr=167.0.0.0">灰色</a>&nbsp;
+															<a href="category.php?id=3&amp;brand=2&amp;price_min=0&amp;price_max=0&amp;filter_attr=198.0.0.0">白色</a>&nbsp;
+															<a href="category.php?id=3&amp;brand=2&amp;price_min=0&amp;price_max=0&amp;filter_attr=197.0.0.0">金色</a>&nbsp;
+															<a href="category.php?id=3&amp;brand=2&amp;price_min=0&amp;price_max=0&amp;filter_attr=163.0.0.0">黑色</a>&nbsp;
 										</div>
             <div class="screeBox">
 			<strong>屏幕大小 :</strong>
 											<span>全部</span>
-															<a href="category.php?id=3&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.229.0.0">1.75英寸</a>&nbsp;
-															<a href="category.php?id=3&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.216.0.0">2.0英寸</a>&nbsp;
-															<a href="category.php?id=3&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.223.0.0">2.2英寸</a>&nbsp;
-															<a href="category.php?id=3&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.156.0.0">2.6英寸</a>&nbsp;
-															<a href="category.php?id=3&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.200.0.0">2.8英寸</a>&nbsp;
+															<a href="category.php?id=3&amp;brand=2&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.229.0.0">1.75英寸</a>&nbsp;
+															<a href="category.php?id=3&amp;brand=2&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.216.0.0">2.0英寸</a>&nbsp;
+															<a href="category.php?id=3&amp;brand=2&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.223.0.0">2.2英寸</a>&nbsp;
+															<a href="category.php?id=3&amp;brand=2&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.156.0.0">2.6英寸</a>&nbsp;
+															<a href="category.php?id=3&amp;brand=2&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.200.0.0">2.8英寸</a>&nbsp;
 										</div>
             <div class="screeBox">
 			<strong>手机制式 :</strong>
 											<span>全部</span>
-															<a href="category.php?id=3&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.0.202.0">CDMA</a>&nbsp;
-															<a href="category.php?id=3&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.0.160.0">GSM,850,900,1800,1900</a>&nbsp;
-															<a href="category.php?id=3&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.0.195.0">GSM,900,1800,1900,2100</a>&nbsp;
+															<a href="category.php?id=3&amp;brand=2&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.0.202.0">CDMA</a>&nbsp;
+															<a href="category.php?id=3&amp;brand=2&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.0.160.0">GSM,850,900,1800,1900</a>&nbsp;
+															<a href="category.php?id=3&amp;brand=2&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.0.195.0">GSM,900,1800,1900,2100</a>&nbsp;
 										</div>
             <div class="screeBox">
 			<strong>外观样式 :</strong>
 											<span>全部</span>
-															<a href="category.php?id=3&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.0.0.199">滑盖</a>&nbsp;
-															<a href="category.php?id=3&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.0.0.186">直板</a>&nbsp;
+															<a href="category.php?id=3&amp;brand=2&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.0.0.199">滑盖</a>&nbsp;
+															<a href="category.php?id=3&amp;brand=2&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.0.0.186">直板</a>&nbsp;
 										</div>
       		 </div>
 		</div>
 		<div class="blank5"></div>
 	  	 
    
-<div class="box">
-<div class="box_2 centerPadd">
-  <div class="itemTit" id="itemBest">
-        </div>
-  <div id="show_best_area" class="clearfix goodsBox">
-      <div class="goodsItem">
-         <span class="best"></span>
-           <a href="goods.php?id=9"><img src="images/200905/thumb_img/9_thumb_G_1241511871555.jpg" alt="诺基亚E66" class="goodsimg" /></a><br />
-           <p><a href="goods.php?id=9" title="诺基亚E66">诺基亚E66</a></p>
-           <font class="f1">
-                     ￥2298元                     </font>
-        </div>
-    <div class="goodsItem">
-         <span class="best"></span>
-           <a href="goods.php?id=8"><img src="images/200905/thumb_img/8_thumb_G_1241425513488.jpg" alt="飞利浦9@9v" class="goodsimg" /></a><br />
-           <p><a href="goods.php?id=8" title="飞利浦9@9v">飞利浦9@9v</a></p>
-           <font class="f1">
-                     ￥399元                     </font>
-        </div>
-    <div class="goodsItem">
-         <span class="best"></span>
-           <a href="goods.php?id=17"><img src="images/200905/thumb_img/17_thumb_G_1241969394587.jpg" alt="夏新N7" class="goodsimg" /></a><br />
-           <p><a href="goods.php?id=17" title="夏新N7">夏新N7</a></p>
-           <font class="f1">
-                     ￥2300元                     </font>
-        </div>
-    <div class="goodsItem">
-         <span class="best"></span>
-           <a href="goods.php?id=19"><img src="images/200905/thumb_img/19_thumb_G_1241970175208.jpg" alt="三星SGH-F258" class="goodsimg" /></a><br />
-           <p><a href="goods.php?id=19" title="三星SGH-F258">三星SGH-F...</a></p>
-           <font class="f1">
-                     ￥858元                     </font>
-        </div>
-    <div class="goodsItem">
-         <span class="best"></span>
-           <a href="goods.php?id=20"><img src="images/200905/thumb_img/20_thumb_G_1242106490058.jpg" alt="三星BC01" class="goodsimg" /></a><br />
-           <p><a href="goods.php?id=20" title="三星BC01">三星BC01</a></p>
-           <font class="f1">
-                     ￥280元                     </font>
-        </div>
-    <div class="more"><a href="search.php?intro=best"><img src="themes/default/images/more.gif" /></a></div>
-    </div>
-</div>
-</div>
-<div class="blank5"></div>
-    <div class="box">
+  <div class="box">
  <div class="box_1">
   <h3>
   <span>商品列表</span><a name='goods_list'></a>
@@ -259,12 +214,12 @@ document.getElementById('history_list').innerHTML = '您已清空最近浏览过
   <a href="javascript:;" onClick="javascript:display_mode('grid')"><img src="themes/default/images/display_mode_grid_act.gif" alt=""></a>
   <a href="javascript:;" onClick="javascript:display_mode('text')"><img src="themes/default/images/display_mode_text.gif" alt=""></a>&nbsp;&nbsp;
   
-  <a href="category.php?category=3&display=grid&brand=0&price_min=0&price_max=0&filter_attr=0&page=1&sort=goods_id&order=ASC#goods_list"><img src="themes/default/images/goods_id_DESC.gif" alt="按上架时间排序"></a>
-  <a href="category.php?category=3&display=grid&brand=0&price_min=0&price_max=0&filter_attr=0&page=1&sort=shop_price&order=ASC#goods_list"><img src="themes/default/images/shop_price_default.gif" alt="按价格排序"></a>
-  <a href="category.php?category=3&display=grid&brand=0&price_min=0&price_max=0&filter_attr=0&page=1&sort=last_update&order=DESC#goods_list"><img src="themes/default/images/last_update_default.gif" alt="按更新时间排序"></a>
+  <a href="category.php?category=3&display=grid&brand=2&price_min=0&price_max=0&filter_attr=0&page=1&sort=goods_id&order=ASC#goods_list"><img src="themes/default/images/goods_id_DESC.gif" alt="按上架时间排序"></a>
+  <a href="category.php?category=3&display=grid&brand=2&price_min=0&price_max=0&filter_attr=0&page=1&sort=shop_price&order=ASC#goods_list"><img src="themes/default/images/shop_price_default.gif" alt="按价格排序"></a>
+  <a href="category.php?category=3&display=grid&brand=2&price_min=0&price_max=0&filter_attr=0&page=1&sort=last_update&order=DESC#goods_list"><img src="themes/default/images/last_update_default.gif" alt="按更新时间排序"></a>
   <input type="hidden" name="category" value="3" />
   <input type="hidden" name="display" value="grid" id="display" />
-  <input type="hidden" name="brand" value="0" />
+  <input type="hidden" name="brand" value="2" />
   <input type="hidden" name="price_min" value="0" />
   <input type="hidden" name="price_max" value="0" />
   <input type="hidden" name="filter_attr" value="0" />
@@ -277,78 +232,6 @@ document.getElementById('history_list').innerHTML = '您已清空最近浏览过
             <div class="centerPadd">
     <div class="clearfix goodsBox" style="border:none;">
              <div class="goodsItem">
-           <a href="goods.php?id=32"><img src="images/200905/thumb_img/32_thumb_G_1242110760196.jpg" alt="诺基亚N85" class="goodsimg" /></a><br />
-           <p><a href="goods.php?id=32" title="诺基亚N85">诺基亚N85</a></p>
-                       市场价<font class="market_s">￥3612元</font><br />
-                                    本店价<font class="shop_s">￥3010元</font><br />
-                       <a href="javascript:collect(32);" class="f6">收藏</a> |
-           <a href="javascript:addToCart(32)" class="f6">购买</a> |
-           <a href="javascript:;" id="compareLink" onClick="Compare.add(32,'诺基亚N85','9')" class="f6">比较</a>
-        </div>
-                 <div class="goodsItem">
-           <a href="goods.php?id=24"><img src="images/200905/thumb_img/24_thumb_G_1241971981429.jpg" alt="P806" class="goodsimg" /></a><br />
-           <p><a href="goods.php?id=24" title="P806">P806</a></p>
-                       市场价<font class="market_s">￥2400元</font><br />
-                                    本店价<font class="shop_s">￥2000元</font><br />
-                       <a href="javascript:collect(24);" class="f6">收藏</a> |
-           <a href="javascript:addToCart(24)" class="f6">购买</a> |
-           <a href="javascript:;" id="compareLink" onClick="Compare.add(24,'P806','9')" class="f6">比较</a>
-        </div>
-                 <div class="goodsItem">
-           <a href="goods.php?id=22"><img src="images/200905/thumb_img/22_thumb_G_1241971076803.jpg" alt="多普达Touc..." class="goodsimg" /></a><br />
-           <p><a href="goods.php?id=22" title="多普达Touch HD">多普达Touc...</a></p>
-                       市场价<font class="market_s">￥7199元</font><br />
-                                    本店价<font class="shop_s">￥5999元</font><br />
-                       <a href="javascript:collect(22);" class="f6">收藏</a> |
-           <a href="javascript:addToCart(22)" class="f6">购买</a> |
-           <a href="javascript:;" id="compareLink" onClick="Compare.add(22,'多普达Touc...','9')" class="f6">比较</a>
-        </div>
-                 <div class="goodsItem">
-           <a href="goods.php?id=21"><img src="images/200905/thumb_img/21_thumb_G_1242109298150.jpg" alt="金立 A30" class="goodsimg" /></a><br />
-           <p><a href="goods.php?id=21" title="金立 A30">金立 A30</a></p>
-                       市场价<font class="market_s">￥2400元</font><br />
-                                    本店价<font class="shop_s">￥2000元</font><br />
-                       <a href="javascript:collect(21);" class="f6">收藏</a> |
-           <a href="javascript:addToCart(21)" class="f6">购买</a> |
-           <a href="javascript:;" id="compareLink" onClick="Compare.add(21,'金立 A30','9')" class="f6">比较</a>
-        </div>
-                 <div class="goodsItem">
-           <a href="goods.php?id=20"><img src="images/200905/thumb_img/20_thumb_G_1242106490058.jpg" alt="三星BC01" class="goodsimg" /></a><br />
-           <p><a href="goods.php?id=20" title="三星BC01">三星BC01</a></p>
-                       市场价<font class="market_s">￥336元</font><br />
-                                    本店价<font class="shop_s">￥280元</font><br />
-                       <a href="javascript:collect(20);" class="f6">收藏</a> |
-           <a href="javascript:addToCart(20)" class="f6">购买</a> |
-           <a href="javascript:;" id="compareLink" onClick="Compare.add(20,'三星BC01','9')" class="f6">比较</a>
-        </div>
-                 <div class="goodsItem">
-           <a href="goods.php?id=19"><img src="images/200905/thumb_img/19_thumb_G_1241970175208.jpg" alt="三星SGH-F..." class="goodsimg" /></a><br />
-           <p><a href="goods.php?id=19" title="三星SGH-F258">三星SGH-F...</a></p>
-                       市场价<font class="market_s">￥1030元</font><br />
-                                    本店价<font class="shop_s">￥858元</font><br />
-                       <a href="javascript:collect(19);" class="f6">收藏</a> |
-           <a href="javascript:addToCart(19)" class="f6">购买</a> |
-           <a href="javascript:;" id="compareLink" onClick="Compare.add(19,'三星SGH-F...','9')" class="f6">比较</a>
-        </div>
-                 <div class="goodsItem">
-           <a href="goods.php?id=17"><img src="images/200905/thumb_img/17_thumb_G_1241969394587.jpg" alt="夏新N7" class="goodsimg" /></a><br />
-           <p><a href="goods.php?id=17" title="夏新N7">夏新N7</a></p>
-                       市场价<font class="market_s">￥2760元</font><br />
-                                    本店价<font class="shop_s">￥2300元</font><br />
-                       <a href="javascript:collect(17);" class="f6">收藏</a> |
-           <a href="javascript:addToCart(17)" class="f6">购买</a> |
-           <a href="javascript:;" id="compareLink" onClick="Compare.add(17,'夏新N7','9')" class="f6">比较</a>
-        </div>
-                 <div class="goodsItem">
-           <a href="goods.php?id=13"><img src="images/200905/thumb_img/13_thumb_G_1241968002527.jpg" alt="诺基亚5320..." class="goodsimg" /></a><br />
-           <p><a href="goods.php?id=13" title="诺基亚5320 XpressMusic">诺基亚5320...</a></p>
-                       市场价<font class="market_s">￥1573元</font><br />
-                                    本店价<font class="shop_s">￥1311元</font><br />
-                       <a href="javascript:collect(13);" class="f6">收藏</a> |
-           <a href="javascript:addToCart(13)" class="f6">购买</a> |
-           <a href="javascript:;" id="compareLink" onClick="Compare.add(13,'诺基亚5320...','9')" class="f6">比较</a>
-        </div>
-                 <div class="goodsItem">
            <a href="goods.php?id=12"><img src="images/200905/thumb_img/12_thumb_G_1241965978410.jpg" alt="摩托罗拉A81..." class="goodsimg" /></a><br />
            <p><a href="goods.php?id=12" title="摩托罗拉A810">摩托罗拉A81...</a></p>
                        市场价<font class="market_s">￥1180元</font><br />
@@ -357,16 +240,7 @@ document.getElementById('history_list').innerHTML = '您已清空最近浏览过
            <a href="javascript:addToCart(12)" class="f6">购买</a> |
            <a href="javascript:;" id="compareLink" onClick="Compare.add(12,'摩托罗拉A81...','3')" class="f6">比较</a>
         </div>
-                 <div class="goodsItem">
-           <a href="goods.php?id=10"><img src="images/200905/thumb_img/10_thumb_G_1242973436403.jpg" alt="索爱C702c" class="goodsimg" /></a><br />
-           <p><a href="goods.php?id=10" title="索爱C702c">索爱C702c</a></p>
-                       市场价<font class="market_s">￥1594元</font><br />
-                                    本店价<font class="shop_s">￥1328元</font><br />
-                       <a href="javascript:collect(10);" class="f6">收藏</a> |
-           <a href="javascript:addToCart(10)" class="f6">购买</a> |
-           <a href="javascript:;" id="compareLink" onClick="Compare.add(10,'索爱C702c','9')" class="f6">比较</a>
-        </div>
-            </div>
+                    </div>
     </div>
         </form>
   
@@ -398,11 +272,9 @@ var select_spe = "请选择商品属性";
 </script>  
 <form name="selectPageForm" action="/category.php" method="get">
  <div id="pager" class="pagebar">
-  <span class="f_l f6" style="margin-right:10px;">总计 <b>12</b>  个记录</span>
-                      <span class="page_now">1</span>
-                      <a href="category.php?id=3&amp;price_min=0&amp;price_max=0&amp;page=2&amp;sort=goods_id&amp;order=DESC">[2]</a>
-            
-  <a class="next" href="category.php?id=3&amp;price_min=0&amp;price_max=0&amp;page=2&amp;sort=goods_id&amp;order=DESC">下一页</a>    </div>
+  <span class="f_l f6" style="margin-right:10px;">总计 <b>1</b>  个记录</span>
+      
+      </div>
 </form>
 <script type="Text/Javascript" language="JavaScript">
 <!--
