@@ -1,4 +1,4 @@
-<?php exit;?>a:3:{s:8:"template";a:11:{i:0;s:72:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/category.dwt";i:1;s:83:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/page_header.lbi";i:2;s:79:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/ur_here.lbi";i:3;s:76:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/cart.lbi";i:4;s:85:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/category_tree.lbi";i:5;s:79:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/history.lbi";i:6;s:86:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/recommend_best.lbi";i:7;s:82:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/goods_list.lbi";i:8;s:77:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/pages.lbi";i:9;s:76:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/help.lbi";i:10;s:83:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/page_footer.lbi";}s:7:"expires";i:1455619750;s:8:"maketime";i:1455616150;}<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php exit;?>a:3:{s:8:"template";a:11:{i:0;s:72:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/category.dwt";i:1;s:83:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/page_header.lbi";i:2;s:79:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/ur_here.lbi";i:3;s:76:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/cart.lbi";i:4;s:85:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/category_tree.lbi";i:5;s:79:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/history.lbi";i:6;s:86:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/recommend_best.lbi";i:7;s:82:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/goods_list.lbi";i:8;s:77:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/pages.lbi";i:9;s:76:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/help.lbi";i:10;s:83:"E:/www/ECShop_V2.7.3_UTF8_release1106/upload/themes/default/library/page_footer.lbi";}s:7:"expires";i:1455620133;s:8:"maketime";i:1455616533;}<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta name="Generator" content="ECSHOP v2.7.3" />
@@ -114,9 +114,7 @@ var process_request = "正在处理您的请求...";
  </div>
 </div>
 <div class="blank5"></div>
- <br />
-<b>Deprecated</b>:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in <b>E:\www\ECShop_V2.7.3_UTF8_release1106\upload\includes\cls_template.php</b> on line <b>496</b><br />
-<div class="box" id='history_div'>
+ <div class="box" id='history_div'>
  <div class="box_1">
   <h3><span>浏览历史</span></h3>
   <div class="boxCenterList clearfix" id='history_list'>
@@ -397,7 +395,8 @@ var compare_no_goods = "您没有选定任何需要比较的商品或者比较�
 var btn_buy = "购买";
 var is_cancel = "取消";
 var select_spe = "请选择商品属性";
-</script>  <form name="selectPageForm" action="/category.php" method="get">
+</script>  
+<form name="selectPageForm" action="/category.php" method="get">
  <div id="pager" class="pagebar">
   <span class="f_l f6" style="margin-right:10px;">总计 <b>12</b>  个记录</span>
                       <span class="page_now">1</span>
