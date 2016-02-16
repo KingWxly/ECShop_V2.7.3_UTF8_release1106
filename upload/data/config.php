@@ -9,7 +9,7 @@ $db_name   = "ec_demo";
 $db_user   = "root";
 
 // database password
-$db_pass   = "";
+$db_pass   = "789456123Abc";
 
 // table prefix
 $prefix    = "ecs_";
@@ -30,6 +30,6 @@ define('AUTH_KEY', 'this is a key');
 
 define('OLD_AUTH_KEY', '');
 
-define('API_TIME', '');
+define('API_TIME', '2016-02-16 18:10:01');
 
 ?>
