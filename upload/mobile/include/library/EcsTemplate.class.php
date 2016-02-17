@@ -906,9 +906,17 @@ class EcsTemplate {
          */
         if ($file_type == '.dwt') {
             /* 将模板中所有library替换为链接 */
-            $pattern = '/<!--\s#BeginLibraryItem\s\"\/(.*?)\"\s-->.*?<!--\s#EndLibraryItem\s-->/se';
-            $replacement = "'{include file='.strtolower('\\1'). '}'";
-            $source = preg_replace($pattern, $replacement, $source);
+            /*preg_replace_callback替换过期函数preg_replace/e
+            $pattern='/<!--\s#BeginLibraryItem\s\"\/(.*?)\"\s-->.*?<!--\s#EndLibraryItem\s-->/se';
+            $replacement="'{includefile='.strtolower('\\1').'}'";
+            $source=preg_replace($pattern,$replacement,$source);
+            */
+
+            $pattern='/<!--\s#BeginLibraryItem\s\"\/(.*?)\"\s-->.*?<!--\s#EndLibraryItem\s-->/s';
+            $replacement=function($matches){
+                return'{includefile='.strtolower($matches[1]).'}';
+            };
+            $source=preg_replace_callback($pattern,$replacement,$source);
 
             /* 检查有无动态库文件，如果有为其赋值 */
             $template = C('template');
