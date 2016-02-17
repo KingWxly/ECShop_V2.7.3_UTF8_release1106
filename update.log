@@ -5,3 +5,7 @@
 	详见 ./update/02 已经开启gd2库，ecshop安装提示不支持JPEG.txt
 
 3 保存创建过的用户名和密码，系统bug使得正常进入前后台（待处理）
+
+4 为ECTouch独立站点的配置表添加图片基础路径的 配置项 IMG_BASE_URL,
+    删除 ectouch\data\cache\static_caches\touch_shop_config.php 刷新页面重新生成
+    详见 ./update/04 为PREFIX_touch_shop_config表添加配置项IMG_BASE_URL值为PC站的URL
