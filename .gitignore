@@ -1,1 +1,4 @@
-.idea/*
+.idea/
+
+# 忽略upload/temp/下的所有文件，即忽略缓存
+upload/temp/
