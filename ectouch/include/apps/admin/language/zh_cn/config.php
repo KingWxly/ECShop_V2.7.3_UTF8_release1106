@@ -52,6 +52,7 @@ $_LANG['cfg_name']['article_number'] = '最新文章显示数量';
 $_LANG['cfg_name']['order_number'] = '订单显示数量';
 $_LANG['cfg_name']['shop_name'] = '商店名称';
 $_LANG['cfg_name']['shop_url'] = '电脑端地址';
+$_LANG['cfg_name']['img_base_url'] = 'PC站地址（图片的域）';
 $_LANG['cfg_name']['shop_title'] = '商店标题';
 $_LANG['cfg_name']['shop_website'] = '商店网址';
 $_LANG['cfg_name']['shop_desc'] = '商店描述';
