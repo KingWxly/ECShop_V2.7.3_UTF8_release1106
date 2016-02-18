@@ -18,6 +18,7 @@ $k = array (
   'id' => '1',
   'num' => '3',
 );
+;
 echo $this->_echash . $k['name'] . '|' . serialize($k) . $this->_echash;
 ?>
     </div>

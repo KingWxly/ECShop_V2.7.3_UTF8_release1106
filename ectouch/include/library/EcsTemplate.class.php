@@ -423,15 +423,15 @@ class EcsTemplate {
                     $t = $this->get_para(substr($tag, 7), false);
 
 //                    $out = "<?php \n" . '$k = ' . preg_replace("/(\'\\$[^,]+)/e", "stripslashes(trim('\\1','\''));", var_export($t, true)) . ";\n";
-                    $out = "<?php \n" . '$k = ' . preg_replace(
-                            "/(\'\\$[^,]+)/",
-                            function($matches){
-                                return "stripslashes(trim('$matches[1]','\'')
-                                );";
-                            },
-                            var_export($t, true)
-                        ) . ";\n";
-                    $out .= 'echo $this->_echash . $k[\'name\'] . \'|\' . serialize($k) . $this->_echash;' . "\n?>";
+                    $replacement = preg_replace_callback(
+                        "/(\'\\$[^,]+)/" ,
+                        function($matches){
+                            return stripslashes(trim($matches[1],'\''));
+                        },
+                        var_export($t, true)
+                    );
+                    $out = "<?php \n" . '$k = ' . $replacement . ";\n";
+                    $out .= ";\n".'echo $this->_echash . $k[\'name\'] . \'|\' . serialize($k) . $this->_echash;' . "\n?>";
 
                     return $out;
                     break;
