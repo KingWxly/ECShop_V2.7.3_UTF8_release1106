@@ -334,7 +334,7 @@ button { text-align: center; font-size: 0.8em; padding: 0.2em 0.4em; border-radi
 .ect-wrapper div a { display: table-cell; height: 3em; line-height: 3em; border-right: 1px #e3e3e3 solid; }
 .ect-wrapper div a:last-child { border-right: none; }
 .ect-wrapper div a.category-list { width: 5em; }
-.ect-wrapper div a.select i.glyphicon-arrow-up { -webkit-transform: rotate(180deg); -moz-transform: rotate(180deg); -ms-transform: rotate(180deg); -o-transform: rotate(180deg); transform: rotate(45deg); }
+.ect-wrapper div a.select i.glyphicon-arrow-up { -webkit-transform: rotate(180deg); -moz-transform: rotate(180deg); -ms-transform: rotate(180deg); -o-transform: rotate(180deg);}
 .ect-wrapper div a i.ect-icon-cate3,
 .ect-wrapper a i.ect-icon-min { display: inline-block; vertical-align: -0.5em; margin-right: 0.3em; width: 1.7em; height: 1.7em; background-position: -0.16em -0.1em; }
 .ect-wrapper div a i.ect-icon-min { background: url(../images/yspic.png) no-repeat; background-size: 200%; vertical-align: middle; margin: 0 auto; }
