@@ -1,6 +1,6 @@
 <ul class="pager ect-margin-lr ect-page">
 	  <li class="pull-left"><a href="<?php echo empty($this->_var['pager']['page_prev']) ? '#' : $this->_var['pager']['page_prev']; ?>">上一页</a></li>
-	  <?php if ($this->_var['pager']['page_number']): ?>
+	  <?php if (! empty ( $this->_var['pager']['page_number'] )): ?>
 	  <li class="form-select">
 		<i class="fa fa-sort-desc"></i>
 	    <select name="sel_question" onChange="window.location.href=this.value;">
