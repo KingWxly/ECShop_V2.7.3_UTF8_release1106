@@ -30,6 +30,11 @@
       <!--{/foreach}-->
     </ul>
   </nav>
+  <!--小美头条-->
+  <div class="top_news">
+    <img src="__TPL__/images/top_news.png" />
+    <a href="">小美头条的超链接</a>
+  </div>
   <!-- #BeginLibraryItem "/library/recommend_hot.lbi" --><!-- #EndLibraryItem -->
   <footer>
     <nav class="ect-nav"><!-- #BeginLibraryItem "/library/page_menu.lbi" --><!-- #EndLibraryItem --></nav>

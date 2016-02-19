@@ -269,11 +269,14 @@ button { text-align: center; font-size: 0.8em; padding: 0.2em 0.4em; border-radi
 .focus .bd li a { -webkit-tap-highlight-color: rgba(0, 0, 0, 0);/* 取消链接高亮 */ }
 /*快速导航*/
 .ect-row-nav { border-bottom: 1px #e3e3e3 solid; background: #FFF; margin-top: 0; }
-.ect-row-nav li { border: 1px #e3e3e3 solid; padding: 0.8em 0; border-left: none; border-bottom: none; }
+.ect-row-nav li { padding: 0; border-left: none; border-bottom: none; }
 .ect-row-nav a:nth-child(4n) li { border-right: none; }
-.ect-row-nav li i { height: 3em; width: 100%; overflow: hidden; display: block; }
-.ect-row-nav li p { margin-top: 0.8em; }
-.ect-row-nav li img { width: 3em; display: block; margin: 0 auto; }
+.ect-row-nav li i { height: 3.5em; width: 100%; overflow: hidden; display: block; }
+.ect-row-nav li p { margin: 0 0 0.5em 0; }
+.ect-row-nav li img { width: 3.5em; display: block; margin: 0 auto; }
+/*小美头条*/
+.top_news { height: 1.5em; width: 100%; padding: 0.25em 0;}
+.top_news img { height: 1.5em; width: auto; padding: 0 0.5em 0 0.75em; vertical-align: middle;}
 /*==================
         全部商品分类页
 ==============*/
