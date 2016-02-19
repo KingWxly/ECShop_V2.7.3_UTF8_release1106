@@ -213,4 +213,18 @@ class GoodsController extends CommonController {
         die(json_encode($res));
     }
 
+    /**
+     * 超值单品列表
+     */
+    public function precious_list() {
+
+    }
+
+    /**
+     * 试用商品
+     */
+    public function trial_list() {
+
+    }
+
 }

@@ -73,9 +73,9 @@ CREATE TABLE IF NOT EXISTS `ecs_touch_ad` (
 --
 
 INSERT INTO `ecs_touch_ad` (`ad_id`, `position_id`, `media_type`, `ad_name`, `ad_link`, `ad_code`, `start_time`, `end_time`, `link_man`, `link_email`, `link_phone`, `click_count`, `enabled`) VALUES
-(1, 1, 0, '1', '', 'http://www.ectouch.cn/data/assets/images/ectouch_ad1.jpg', 1396339200, 1525161600, '', '', '', 0, 1),
-(2, 1, 0, '2', '', 'http://www.ectouch.cn/data/assets/images/ectouch_ad2.jpg', 1396339200, 1525161600, '', '', '', 0, 1),
-(3, 1, 0, '3', '', 'http://www.ectouch.cn/data/assets/images/ectouch_ad3.jpg', 1396339200, 1525161600, '', '', '', 0, 1);
+(1, 1, 0, '1', '', 'themes/default/images/banner1.png', 1396339200, 1525161600, '', '', '', 0, 1),
+(2, 1, 0, '2', '', 'themes/default/images/banner2.png', 1396339200, 1525161600, '', '', '', 0, 1),
+(3, 1, 0, '3', '', 'themes/default/images/banner3.png', 1396339200, 1525161600, '', '', '', 0, 1);
 
 --
 -- 表的结构 `ecs_touch_ad_position`
@@ -97,8 +97,11 @@ CREATE TABLE IF NOT EXISTS `ecs_touch_ad_position` (
 -- 转存表中的数据 `ecs_touch_ad_position`
 --
 
-INSERT INTO `ecs_touch_ad_position` (`position_id`, `position_name`, `ad_width`, `ad_height`, `position_desc`, `position_style`) VALUES
+/** INSERT INTO `ecs_touch_ad_position` (`position_id`, `position_name`, `ad_width`, `ad_height`, `position_desc`, `position_style`) VALUES
 (1, '首页Banner广告位', 360, 168, '', '<ul>\r\n{foreach from=$ads item=ad}\r\n  <li>{$ad}</li>\r\n{/foreach}\r\n</ul>\r\n');
+**/
+INSERT INTO `ecs_touch_ad_position` (`position_id`, `position_name`, `ad_width`, `ad_height`, `position_desc`, `position_style`) VALUES
+(1, '首页Banner广告位', 375, 176, '', '<ul>\r\n{foreach from=$ads item=ad}\r\n<li>{$ad}</li>\r\n{/foreach}\r\n</ul>\r\n');
 
 --
 -- 表的结构 `ecs_touch_adsense`
@@ -250,6 +253,7 @@ CREATE TABLE IF NOT EXISTS `ecs_touch_nav` (
 -- 转存表中的数据 `ecs_touch_nav`
 --
 
+/*
 INSERT INTO `ecs_touch_nav` (`id`, `ctype`, `cid`, `name`, `ifshow`, `vieworder`, `opennew`, `url`, `pic`, `type`) VALUES
 (1, '', 0, '全部分类', 1, 0, 0, 'index.php?c=category&amp;a=top_all', 'themes/default/images/nav/nav_0.png', 'middle'),
 (2, '', 0, '我的订单', 1, 0, 0, 'index.php?m=default&amp;c=user&amp;a=order_list', 'themes/default/images/nav/nav_1.png', 'middle'),
@@ -259,6 +263,13 @@ INSERT INTO `ecs_touch_nav` (`id`, `ctype`, `cid`, `name`, `ifshow`, `vieworder`
 (6, '', 0, '品牌街', 1, 0, 0, 'index.php?m=default&amp;c=brand', 'themes/default/images/nav/nav_5.png', 'middle'),
 (7, '', 0, '个人中心', 1, 0, 0, 'index.php?m=default&amp;c=user', 'themes/default/images/nav/nav_6.png', 'middle'),
 (8, '', 0, '购物车', 1, 0, 0, 'index.php?m=default&amp;c=flow&amp;a=cart', 'themes/default/images/nav/nav_7.png', 'middle');
+*/
+
+INSERT INTO `ecs_touch_nav` (`id`, `ctype`, `cid`, `name`, `ifshow`, `vieworder`, `opennew`, `url`, `pic`, `type`) VALUES
+(1, '', 0, '超值单品', 1, 1, 0, 'index.php?m=default&amp;c=goods&amp;a=precious_list', 'themes/default/images/nav/precious_goods.png', 'middle'),
+(2, '', 0, '品牌政策', 1, 2, 0, 'index.php?m=default&amp;c=brand&amp;a=rules', 'themes/default/images/nav/brand_rules.png', 'middle'),
+(3, '', 0, '试用申请', 1, 3, 0, 'index.php?m=default&amp;c=goods&amp;a=trial_list', 'themes/default/images/nav/trial_goods.png', 'middle'),
+(4, '', 0, '全部分类', 1, 4, 0, 'index.php?c=category&amp;a=top_all', 'themes/default/images/nav/all_category.png', 'middle');
 
 --
 -- 表的结构 `ecs_touch_payment`

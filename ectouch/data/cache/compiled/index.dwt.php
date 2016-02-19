@@ -23,7 +23,9 @@ echo $this->_echash . $k['name'] . '|' . serialize($k) . $this->_echash;
 ?>
     </div>
   </div>
+  <!-- 隐藏banner下的logo
   <div style="text-align: center;padding: 5px 0 18px;"><img src="__TPL__/images/logo.png" style="width:68%" /></div>
+  -->
   
   <nav class="container-fluid">
     <ul class="row ect-row-nav">

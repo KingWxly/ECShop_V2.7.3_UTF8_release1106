@@ -161,4 +161,10 @@ class BrandController extends CommonController {
         setcookie('ECS[display]', $display, gmtime() + 86400 * 7);
     }
 
+    /**
+     * 品牌政策
+     */
+    public function rules() {
+
+    }
 }
