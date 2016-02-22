@@ -54,6 +54,6 @@ echo $this->_echash . $k['name'] . '|' . serialize($k) . $this->_echash;
 <?php echo $this->fetch('library/search.lbi'); ?>
 <?php echo $this->fetch('library/page_footer.lbi'); ?>
 <script type="text/javascript">
-get_asynclist("<?php echo url('index/ajax_goods', array('type'=>'best'));?>" , '__TPL__/images/loader.gif');
+get_asynclist("<?php echo url('index/ajax_recommend', array('type'=>'best'));?>" , '__TPL__/images/loader.gif');
 </script>
 </body></html>

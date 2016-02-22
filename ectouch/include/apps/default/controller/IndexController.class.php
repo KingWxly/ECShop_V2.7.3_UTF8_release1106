@@ -69,4 +69,44 @@ class IndexController extends CommonController {
         }
     }
 
+    /**
+     * ajax获取推荐列表
+     * 最新团拼 热门品牌 护肤 彩妆 个人护理 香氛 男士专区 家庭护理 母婴专区
+     */
+    public function ajax_recommend() {
+        if (IS_AJAX) {
+            $list = array();
+            //  获得首页推荐的团拼
+            $groupbuy_list =  model('Groupbuy')->group_buy_list(2, 1,
+                'act_id', 'DESC');
+            if ($groupbuy_list) {
+                $this->assign('cate', [
+                    'name' => 'group_buy_last',
+                    'url' => '/index.php?m=default&c=group_buy&a=index' //  团拼页面
+                ]);
+                $list [] = [
+                    'single_item' => ECTouch::view()->fetch('library/cate_header.lbi')
+                ];
+
+                foreach ($groupbuy_list as $key => $value) {
+                    $value['url'] = '/index.php?m=default&c=goods&a=index&id='.$value['goods_id'];
+                    $value['group_remain'] = $value['end_time'] - time();
+                    $this->assign('groupbuy', $value);
+                    $list [] = array(
+                        'single_item' => ECTouch::view()->fetch('library/async_groupbuy_index.lbi')
+                    );
+                }
+            }
+            //  获取品牌列表
+            $recommend_list['brand'] = model('Brand')->get_brands('brand', 6, 1);
+            //  获取分类下最热的商品，暂不设价格区间
+            $recommend_list['category'] = model('Category')
+                ->get_category_recommend_goods('is_hot');
+
+            echo json_encode($list);
+            exit();
+        } else {
+            $this->redirect(url('index'));
+        }
+    }
 }

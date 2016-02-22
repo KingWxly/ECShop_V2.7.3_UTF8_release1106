@@ -1,0 +1,5 @@
+<div class="ect-diaplay-box text-center cate_header">
+  <img src="__TPL__/images/cate_header.png">
+  <span class="ect-box-flex"><span class="ect-text-left">{$lang.$cate.name}</span>
+  <a class="ect-text-right" href="{:url({$cate.url})}">{$lang.show_more}</a>
+</div>

@@ -94,6 +94,7 @@ $_LANG['old_price'] = '原  价：';
 $_LANG['package_price'] = '礼包价：';
 $_LANG['then_old_price'] = '节  省：';
 $_LANG['free_goods'] = '免运费商品';
+$_LANG['show_more'] = '更多>';
 
 $_LANG['searchkeywords_notice'] = '匹配多个关键字全部，可用 "空格" 或 "AND" 连接。如 win32 AND unix<br />匹配多个关键字其中部分，可用"+"或 "OR" 连接。如 win32 OR unix';
 $_LANG['hidden_outstock'] = '隐藏已脱销的商品';
@@ -130,6 +131,9 @@ $_LANG['number_to'] = '数量';
 $_LANG['article_list'] = '文章列表';
 $_LANG['article_detail'] = '问题详情';
 $_LANG['piece'] = '件';
+$_LANG['over_remain'] = '结束倒计时';
+$_LANG['begin_remain'] = '开始倒计时';
+$_LANG['coming_soon'] = '敬请期待';
 
 $_LANG['goods_category'] = "商品分类";
 $_LANG['menu'] = "菜单";
@@ -428,6 +432,7 @@ $_LANG['favourable'] = '优惠活动';
 
 /* 团购部分语言项 */
 $_LANG['group_buy'] = '团购活动';
+$_LANG['group_buy_last'] = '最新团拼';
 $_LANG['group_buy_goods'] = '团购商品';
 $_LANG['gb_goods_name'] = '团购商品：';
 $_LANG['gb_start_date'] = '开始时间：';
@@ -452,6 +457,10 @@ $_LANG['gb_error_goods_lacking'] = '对不起，商品库存不足，请您修�
 $_LANG['gb_error_status'] = '对不起，该团购活动已经结束或尚未开始，现在不能参加！';
 $_LANG['gb_error_login'] = '对不起，您没有登录，不能参加团购，请您先登录！';
 $_LANG['group_goods_empty'] = '当前没有团购活动';
+$_LANG['group_progress'] = '团拼进度';
+$_LANG['group_remain'] = '还剩';
+$_LANG['group_support_amount'] = '支持数量';
+$_LANG['group_develop_mix'] = '开团数量';
 
 /* 拍卖部分语言项 */
 $_LANG['auction'] = '拍卖活动';

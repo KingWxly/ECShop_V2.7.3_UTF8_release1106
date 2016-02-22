@@ -107,6 +107,7 @@ h4,
 h5,
 h6 { font-weight: normal; }
 .ect-text-left { text-align: left; }
+.ect-text-right { text-align: right; }
 .ect-border-none { border: none; }
 .ect-margin-lr { margin-left: 0.6em; margin-right: 0.6em; }
 .ect-margin-tb { margin-top: 0.5em; margin-bottom: 0.5em; }
@@ -145,7 +146,7 @@ h6 { font-weight: normal; }
 .icon-write .ect-icon-cate { background-position: -0.1em -1.95em; background-size: 13em; }
 .icon-write .ect-icon-groupbuy { background: url(../images/icon/groupbuy_on.png) no-repeat; background-size: 2em; }
 .icon-write .ect-icon-flow { background: url(../images/icon/shopping_cart_on.png) no-repeat; background-size: 2em; }
-.icon-write .ect-icon-user { background: url(../images/icon/user_center_on.png) no-repeat; background-size: 2em; }
+.icon-write .ect-icon-user { background: url(../images/icon/user_center.png) no-repeat; background-size: 2em; }
 .icon-write .ect-icon-history { background-position: -5.4em -2.7em; }
 .icon-write .ect-icon-search1 { background-position: -12.85em -2.6em; }
 .icon-write .ect-icon-mune { background-position: -10.36em -2.6em; }
@@ -178,6 +179,7 @@ h4.title { font-size: 1.2em; line-height: 1.3em; display: block; height: 2.4em; 
 .ect-pro-list ul li dl dd { margin-top: 0.4em; font-size: 0.9em; overflow: hidden; }
 .ect-pro-list ul li dl dd.dd-price small { font-size: 0.9em; }
 .ect-pro-list ul li dl dd.dd-num span { margin-right: 0.3em; color: #888; }
+.ect-pro-list ul li dl .group_progress { height:1.5em; width: 16em; }
 /*导航*/
 nav.ect-nav { color: #999; background: #fcfcfc; height: 4.2em; width: 100%; max-width: 640px; border-top: 1px solid #e3e3e3; }
 footer nav.ect-nav { position: fixed; bottom: 0; }
@@ -204,7 +206,7 @@ footer.logo img { width: 8em; height: auto; display: block; margin: 0.8em auto; 
 .user-tab ul li.active a:hover { color: #666 }
 .user-tab ul li.active a,
 .user-tab ul li.active a:link { color: #5babe6; }
-.user-tab .tab-content .ect-pro-list { border: none; }
+.user-tab .tab-content .ect-pro-list { border: none; margin: 0.5em 0 0 0; }
 .user-tab .tab-content .tab-pane { padding: 0.6em; }
 .user-tab .tab-content .ect-pro-list ul li { padding: 0.6em 0; }
 .user-tab .tab-content .ect-pro-list a { padding: 0; }
@@ -281,6 +283,8 @@ button { text-align: center; font-size: 0.8em; padding: 0.2em 0.4em; border-radi
 /*小美头条*/
 .top_news { height: 1.5em; width: 100%; padding: 0.25em 0; background: #F1F1F1}
 .top_news img { height: 1.5em; width: auto; padding: 0 0.5em 0 0.75em; vertical-align: middle;}
+/* 分类 */
+.cate_header img{ height: 9px; width: 1.2em;  }
 /*==================
         全部商品分类页
 ==============*/

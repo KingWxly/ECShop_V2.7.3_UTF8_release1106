@@ -2396,3 +2396,4 @@ function get_editable_libs($curr_template, $curr_page_libs) {
 function M($model='Base'){
     return model($model)->model;
 }
+
