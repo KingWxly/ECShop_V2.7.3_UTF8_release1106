@@ -109,7 +109,7 @@ h6 { font-weight: normal; }
 .ect-text-left { text-align: left; }
 .ect-border-none { border: none; }
 .ect-margin-lr { margin-left: 0.6em; margin-right: 0.6em; }
-.ect-margin-tb { margin-top: 0.6em; margin-bottom: 0.6em; }
+.ect-margin-tb { margin-top: 0.5em; margin-bottom: 0.5em; }
 .ect-padding-lr { padding-left: 0.6em; padding-right: 0.6em; }
 .ect-padding-tb { padding-top: 0.6em; padding-bottom: 0.6em; }
 .ect-border-radius100 { border-radius: 100%; -moz-border-radius: 100%; -webkit-border-radius: 100%; -o-border-radius: 100%; }
@@ -126,22 +126,26 @@ h6 { font-weight: normal; }
 .ect-header span { font-size: 1.4em; position: absolute; left: 2.4em; right: 3em; top: 0.24em }
 .ect-header a { width: 2.5em; height: 2.5em; }
 /*icon灰色*/
-.ect-icon { background-repeat: no-repeat; background-position: center center; background: url(../images/iconall.png) no-repeat; background-size: 15em; }
+.ect-icon { background-repeat: no-repeat; background-position: center center;}
 .ect-icon1 { background-size: 18em; }
+.ect-icon-cate1 { background-repeat: no-repeat; background-position: center center; background: url(../images/icon/classify.png) no-repeat; background-size: 2em;  }
 .ect-icon-cate3 { background-position: -0.1em 0em; }
-.ect-icon-home { background-position: -6.45em -0.2em; }
+/* .ect-icon-home { background-position: -6.45em -0.2em; } */
+.ect-icon-home { background: url(../images/icon/home.png) no-repeat; background-size: 2em; }
 .ect-icon-search { background-position: -10.8em -0.2em; }
 .ect-icon-search1 { background-position: -12.85em 0em; }
 .ect-icon-cate { background-position: -0.1em 0em; background-size: 13em; }
-.ect-icon-flow { background-position: -2.7em -0.15em; }
-.ect-icon-user { background-position: -12.98em -0.15em; }
+.ect-icon-groupbuy { background: url(../images/icon/groupbuy.png) no-repeat; background-size: 2em; }
+.ect-icon-flow { background: url(../images/icon/shopping_cart.png) no-repeat; background-size: 2em; }
+.ect-icon-user { background: url(../images/icon/user_center.png) no-repeat; background-size: 2em; }
 .ect-icon-history { background-position: -5.4em -0.1em; }
-/*ico白色*/
-.icon-write .ect-icon-home { background-position: -6.45em -2.3em; }
+/*icon红色*/
+.icon-write .ect-icon-home { background: url(../images/icon/home_on.png) no-repeat; background-size: 2em; }
 .icon-write .ect-icon-search { background-position: -10.8em -2.3em; }
 .icon-write .ect-icon-cate { background-position: -0.1em -1.95em; background-size: 13em; }
-.icon-write .ect-icon-flow { background-position: -2.65em -2.3em; }
-.icon-write .ect-icon-user { background-position: -12.95em -2.3em; }
+.icon-write .ect-icon-groupbuy { background: url(../images/icon/groupbuy_on.png) no-repeat; background-size: 2em; }
+.icon-write .ect-icon-flow { background: url(../images/icon/shopping_cart_on.png) no-repeat; background-size: 2em; }
+.icon-write .ect-icon-user { background: url(../images/icon/user_center_on.png) no-repeat; background-size: 2em; }
 .icon-write .ect-icon-history { background-position: -5.4em -2.7em; }
 .icon-write .ect-icon-search1 { background-position: -12.85em -2.6em; }
 .icon-write .ect-icon-mune { background-position: -10.36em -2.6em; }
@@ -252,7 +256,7 @@ button { text-align: center; font-size: 0.8em; padding: 0.2em 0.4em; border-radi
                 首页
 ======================*/
 /*首页搜索关键词*/
-.ect-header-div { margin-left: 3em; }
+.ect-header-div { margin-left: 2.5em; }
 .ect-btn-search,
 .ect-btn-search:active,
 .ect-btn-search:focus,
