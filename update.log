@@ -2,7 +2,7 @@
 	详见 ./update/01 发布 ECShop V2.7.3 release 1106安全漏洞补丁[20141210]
 
 2 已经开启gd2库，ecshop安装提示不支持JPEG,修改全局配置参数，初始化系统，安装测试数据		
-	详见 ./update/02_support_JPEG.txt
+	详见 ./update/02_support_JPEG.log
 
 3 保存创建过的用户名和密码，系统bug使得正常进入前后台（待处理）
 
@@ -11,4 +11,4 @@
     详见 ./update/04_PREFIX_touch_shop_config_IMG_BASE_URL
 
 5 套用模板
-    详见 ./update/.txt
+    详见 ./update/05_use_wechar_tpl.txt.txt

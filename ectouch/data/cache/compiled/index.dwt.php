@@ -40,6 +40,11 @@ echo $this->_echash . $k['name'] . '|' . serialize($k) . $this->_echash;
       <?php endforeach; endif; unset($_from); ?><?php $this->pop_vars();; ?>
     </ul>
   </nav>
+  
+  <div class="top_news">
+    <img src="__TPL__/images/top_news.png" />
+    <a href="">小美头条的超链接</a>
+  </div>
   <?php echo $this->fetch('library/recommend_hot.lbi'); ?>
   <footer>
     <nav class="ect-nav"><?php echo $this->fetch('library/page_menu.lbi'); ?></nav>

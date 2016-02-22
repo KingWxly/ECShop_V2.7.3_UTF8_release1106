@@ -1,0 +1,7 @@
+02 已经开启gd2库，ecshop安装提示不支持JPEG
+安装ecshop2.7.3，gd2库已经开启，png等图片格式也都支持，但是显示不支持jpeg,查看检测的源文件 installincludeslib_installer.php.其中98行左右是对图片格式的验证。
+1	$gd_info?= gd_info();
+2	$jpeg_enabled?= ($gd_info['JPG Support']??????? === true) ?$_LANG['support'] $_LANG['not_support'];
+3	$gif_enabled??= ($gd_info['GIF Create Support'] === true) ?$_LANG['support'] $_LANG['not_support'];
+4	$png_enabled??= ($gd_info['PNG Support']??????? === true) ?$_LANG['support'] $_LANG['not_support'];
+可用看到是对$gd_info值检验来看是否支持某个图片类型的，打印这个数组，可用看到其是支持JPEG的，$gd_info['JPEG Support']是存在的，$gd_info['JPG Support']不存在。所以将$gd_info['JPG Support'] 修改为$gd_info['JPEG Support']即可。
