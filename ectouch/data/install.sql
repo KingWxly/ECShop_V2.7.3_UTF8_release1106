@@ -326,6 +326,7 @@ INSERT INTO `ecs_touch_shop_config` (parent_id, code, type, store_range, store_d
 
 INSERT INTO `ecs_touch_shop_config` (parent_id, code, type, store_range, store_dir, value, sort_order)VALUES (1, 'show_asynclist', 'select', '1,0', '', '0', 1);
 
+INSERT INTO `ecs_touch_shop_config`(`parent_id`, `code`, `type`, `value`, `sort_order`) VALUES (1, 'img_base_url', 'text', 'http://study.ecshop.com/', '1');
 -- ----------------------------
 -- 增加短信接口配置项
 -- ----------------------------
