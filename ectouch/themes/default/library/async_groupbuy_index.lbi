@@ -1,5 +1,6 @@
 <!-- 最新团拼 start-->
 <!--{if $groupbuy}-->
+<div class="groupbuy">
 <a href="{$groupbuy.url}"><img src="{$groupbuy.act_banner}" alt="{$groupbuy.act_desc}"></a>
   <dl>
     <dt>
@@ -31,5 +32,6 @@
         {$lang.coming_soon}
     <!--{/if}--></span> </dd>
   </dl>
+</div>
 <!-- {/if}--> 
 <!-- 最新团拼 end-->

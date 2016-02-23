@@ -165,6 +165,7 @@ class CommonController extends BaseController
         } else {
             $this->assign('ectouch_css_path', __ROOT__ . '/themes/' . C('template') . '/css/ectouch.css');
         }
+//        $this->assign('h5style_css_path', __ROOT__ . '/themes/' . C('template') . '/css/h5style.css');
     }
 }
 

@@ -100,9 +100,7 @@ class IndexController extends CommonController {
 
             //  获取热门品牌列表
             $brand_list = model('Brand')->get_brands('brand', 6, 1);
-
             if ($brand_list) {
-//                var_dump(123);exit();
                 $this->assign('cate', [
                     'name' => 'hot_brand',
                     'url' => '/default/brand/index' //  热门品牌
@@ -119,8 +117,26 @@ class IndexController extends CommonController {
             }
 
             //  获取分类下最热的商品，暂不设价格区间
-            $category_list = model('Category')->get_category_recommend_goods('is_hot');
-//var_dump(count($category_list));exit();
+            $category_list = model('Category')->get_cat_list(0);
+            if ($category_list) {
+                foreach ($category_list as $category) {
+                    $subcate_list = model('Category')->get_cat_list($category['cat_id']);
+                    if ($subcate_list) {
+//                        $ads = model('Ad')->getAds($category['style']);
+//                        $this->assign('ads', $ads);
+                        $this->assign('cate', [
+                            'name' => $category['cat_name'],
+                            'style' => $category['style'],
+                            'url' => '/index.php?m=default&c=category&a=index&id='.$category['cat_id']
+                        ]);
+                        $this->assign('subcate_list', $subcate_list);
+                        $list [] = array(
+                            'single_item' => ECTouch::view()->fetch('library/async_catelist_index.lbi')
+                        );
+                    }
+                }
+            }
+
             echo json_encode($list);
             exit();
         } else {
