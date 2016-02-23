@@ -82,7 +82,7 @@ class IndexController extends CommonController {
             if ($groupbuy_list) {
                 $this->assign('cate', [
                     'name' => 'group_buy_last',
-                    'url' => '/index.php?m=default&c=group_buy&a=index' //  团拼页面
+                    'url' => '/default/group_buy/index' //  团拼页面
                 ]);
                 $list [] = [
                     'single_item' => ECTouch::view()->fetch('library/cate_header.lbi')
@@ -97,12 +97,30 @@ class IndexController extends CommonController {
                     );
                 }
             }
-            //  获取品牌列表
-            $recommend_list['brand'] = model('Brand')->get_brands('brand', 6, 1);
-            //  获取分类下最热的商品，暂不设价格区间
-            $recommend_list['category'] = model('Category')
-                ->get_category_recommend_goods('is_hot');
 
+            //  获取热门品牌列表
+            $brand_list = model('Brand')->get_brands('brand', 6, 1);
+
+            if ($brand_list) {
+//                var_dump(123);exit();
+                $this->assign('cate', [
+                    'name' => 'hot_brand',
+                    'url' => '/default/brand/index' //  热门品牌
+                ]);
+                $list [] = [
+                    'single_item' => ECTouch::view()->fetch('library/cate_header.lbi')
+                ];
+
+                $this->assign('brand_list', $brand_list);
+                $list [] = array(
+                    'single_item' => ECTouch::view()->fetch('library/brand_index.lbi')
+                );
+
+            }
+
+            //  获取分类下最热的商品，暂不设价格区间
+            $category_list = model('Category')->get_category_recommend_goods('is_hot');
+//var_dump(count($category_list));exit();
             echo json_encode($list);
             exit();
         } else {

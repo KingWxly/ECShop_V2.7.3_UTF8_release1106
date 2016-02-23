@@ -1,0 +1,9 @@
+<!-- 热门品牌 start-->
+<!--{if $brand_list}-->
+<ul class="ul-3 hot-brand">
+    <!--{foreach from=$brand_list as item=brand key=key}-->
+    <a href="{$brand.url}"><img src="{$brand.brand_banner}" alt="{$brand.brand_name}"></a>
+    <!--{/foreach}-->
+</ul>
+<!-- {/if}-->
+<!-- 热门品牌 end-->

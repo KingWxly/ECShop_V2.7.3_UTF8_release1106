@@ -1,5 +1,20 @@
-<!-- 团拼列表 start-->
-<!--{if $hot_goods}-->
+<!-- 类目推荐 start-->
+
+<!--banner滚动图片s-->
+  <div id="focus" class="focus ect-margin-tb">
+    <div class="hd">
+      <ul>
+      </ul>
+    </div>
+    <div class="bd">
+      {insert name='ads' id=1 num=3}
+    </div>
+  </div>
+
+    <!--类目标题-->
+  <!-- #BeginLibraryItem "/library/cate_header.lbi" --><!-- #EndLibraryItem -->
+
+<!--{if $category_list}-->
 <a href="{$hot_goods.url}"><img src="{$hot_goods.goods_img}" alt="{$hot_goods.name}"></a>
   <dl>
     <dt>

@@ -167,4 +167,5 @@ class BrandController extends CommonController {
     public function rules() {
 
     }
+
 }
