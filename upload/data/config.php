@@ -3,7 +3,7 @@
 $db_host   = "localhost:3306";
 
 // database name
-$db_name   = "ec_demo";
+$db_name   = "ec_study";
 
 // database username
 $db_user   = "root";
@@ -12,7 +12,7 @@ $db_user   = "root";
 $db_pass   = "789456123Abc";
 
 // table prefix
-$prefix    = "ecs_";
+$prefix    = "xm_";
 
 $timezone    = "Asia/Shanghai";
 
@@ -30,6 +30,6 @@ define('AUTH_KEY', 'this is a key');
 
 define('OLD_AUTH_KEY', '');
 
-define('API_TIME', '2016-02-23 16:27:12');
+define('API_TIME', '2016-02-16 02:30:21');
 
 ?>
