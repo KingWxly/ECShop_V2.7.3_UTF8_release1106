@@ -308,6 +308,7 @@ button { text-align: center; font-size: 0.8em; padding: 0.2em 0.4em; border-radi
 .core .border-bottom-0{ border-bottom: none; }
 .ect-pro-list ul li ul li p a{ font-size: 11px; color: #999; display: block; }
 .ul-3 .core .clearfix li{ width: 100%; height: auto; overflow: hidden; padding: 0.6em; border-bottom: 1px #e3e3e3 dotted; }
+.ect-pro-list ul li ul { float: left; }
 .ect-pro-list ul li ul li{ float: left; }
 .ect-pro-list ul li ul li img{ margin: auto; padding: auto; }
 /*==================
