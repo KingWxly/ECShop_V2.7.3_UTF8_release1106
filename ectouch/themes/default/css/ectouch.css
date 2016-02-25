@@ -8,7 +8,7 @@ Author URI: http://www.ectouch.cn/
 Logo filename: logo.gif
 Template Type: type_0
 */
-
+* { margin: 0; padding: 0; }
 html { fomt-famiily: '宋体'; }
 body,
 ul,
@@ -171,10 +171,12 @@ i.pm { background: #ea4b35; }
 h4.title { font-size: 1.2em; line-height: 1.3em; display: block; height: 2.4em; overflow: hidden; }
 .ect-pro-list { background: #fff; border-top: 1px #e3e3e3 solid; border-bottom: 1px #e3e3e3 solid; }
 .ect-pro-list:last-child { border-bottom: 0; }
-.ect-pro-list ul li { clear: both; width: 100%; height: auto; overflow: hidden; padding: 0.6em; border-bottom: 1px #e3e3e3 dotted; }
+.ect-pro-list ul li { clear: both; width: 100%; height: auto; overflow: hidden;  border-bottom: 1px #e3e3e3 dotted; }
 .ect-pro-list ul li:last-child { border-bottom: none; }
 .ect-pro-list ul li a { display: inline-block; float: left; }
+.groupbuy { padding: 20px 10px; text-align: left; border-bottom: solid 1px #eee; }
 .groupbuy a img { width: 7em; height: 7em; }
+h4.groupbuy_title { height: 1.2em; }
 .ect-pro-list ul li dl { margin-left: 7.4em; }
 .ect-pro-list ul li dl dd { margin-top: 0.4em; font-size: 0.9em; overflow: hidden; }
 .ect-pro-list ul li dl dd.dd-price small { font-size: 0.9em; }
@@ -208,7 +210,7 @@ footer.logo img { width: 8em; height: auto; display: block; margin: 0.8em auto; 
 .user-tab ul li.active a:link { color: #5babe6; }
 .user-tab .tab-content .ect-pro-list { border: none; margin: 0.5em 0 0 0; }
 .user-tab .tab-content .tab-pane { padding: 0.6em; }
-.user-tab .tab-content .ect-pro-list ul li { padding: 0.6em 0; }
+.user-tab .tab-content .ect-pro-list ul li { padding: 0; }
 .user-tab .tab-content .ect-pro-list a { padding: 0; }
 .user-tab .tab-content .ect-pro-list img { width: 6em; height: 6em; }
 .user-tab .tab-content .ect-pro-list dl { margin-left: 6.4em; }
@@ -285,7 +287,7 @@ button { text-align: center; font-size: 0.8em; padding: 0.2em 0.4em; border-radi
 .top_news img { height: 1.5em; width: auto; padding: 0 0.5em 0 0.75em; vertical-align: middle;}
 /* 分类 */
 .index-classify { width: 100%; margin-bottom: 0.7em; background: #fff; }
-.index-classify .cate_header { width: 100%; height: 1.6em; padding: 0.3em 0.2em; text-align: left; overflow: hidden;  }
+.index-classify .cate_header { width: 100%; height: 2.6em; padding: 1em 0.75em; text-align: left; overflow: hidden;  }
 .index-classify .cate_header span{ float: left; line-height: 1.5em; border-left: solid 0.2em #E15242; color: #E15242; font-size: 1.1em; padding-left: 0.7em;  width: 5em; }
 .index-classify .cate_header a { display: block;float: right; color: #999; line-height: 1.5em; text-decoration: none; }
 .index-classify .cate_header a img { float: right; width: 0.75em; height: 1.5em; }
@@ -295,22 +297,25 @@ button { text-align: center; font-size: 0.8em; padding: 0.2em 0.4em; border-radi
 .hot-brand.ul-3 a{ width: 33.33333333333%; float: left; box-sizing: border-box;}
 .hot-brand.ul-3 a img{ width: 7.57em; height: 9.36em; }
 
+
+/* 分类列表 */
+.cate_list { margin: 0; padding: 0; }
 .clearfix{ overflow: hidden; }
-.ul-3 .li-2{ width: 66.66666666666%; float: left; box-sizing: border-box; }
-.ul-3 .li-1,.ul-3 li{ width: 33.33333333333%; float: left; box-sizing: border-box; }
-.core{ text-align: left; position: relative; box-sizing:border-box; }
-.core li{ background-size: 100% 100%; position: relative; box-sizing:border-box; border-right: 1px solid #EEEEEE; border-bottom: 1px solid #EEEEEE; }
 .pad-left{ padding-left:1px; }
-.core > li > img{ width: 100%; }
-.core p{ width: 100%; position: absolute; left: 10px; top: 20px; font-size: 15px; }
-.core p a{ font-size: 11px; color: #999; display: block; }
-.core .core-center{ text-align: center; top:40px ; left: 0; }
-.core .border-bottom-0{ border-bottom: none; }
-.ect-pro-list ul li ul li p a{ font-size: 11px; color: #999; display: block; }
-.ul-3 .core .clearfix li{ width: 100%; height: auto; overflow: hidden; padding: 0.6em; border-bottom: 1px #e3e3e3 dotted; }
-.ect-pro-list ul li ul { float: left; }
-.ect-pro-list ul li ul li{ float: left; }
-.ect-pro-list ul li ul li img{ margin: auto; padding: auto; }
+.core { text-align: left; position: relative; box-sizing: border-box; }
+.core a { background-size: 100% 100%; position: relative; box-sizing: border-box; border-right: 1px solid #EEEEEE; border-bottom: 1px solid #EEEEEE; }
+.core p { width: 100%; position: absolute; left: 10px; top: 20px; font-size: 15px; }
+.core p span { font-size: 11px; color: #999; display: block; }
+.ul-1,.ul-2,.ul-3,.ul-4{ width: 100%; overflow: hidden; box-sizing: border-box; }
+.ul-3 .li-2{ width: 66.66666666666%; height: 7em; float: left; box-sizing: border-box; }
+.ul-3 .li-1{ width: 33.33333333333%; height: 7em; float: left; box-sizing: border-box; }
+.ul-3 img { width:100%; }
+.li-1 p { height:7em; }
+.li-1 p img { width: 0.75em; height: 1.5em; }
+.border-bottom{ border-bottom: 1px solid #EEEEEE; }
+.border-right{ border-right: 1px solid #EEEEEE; }
+.border-left{ border-left: 1px solid #EEEEEE; }
+.clearfix{ overflow: hidden; }
 /*==================
         全部商品分类页
 ==============*/
@@ -341,7 +346,7 @@ button { text-align: center; font-size: 0.8em; padding: 0.2em 0.4em; border-radi
 .touchweb-com_headerFilter { background-color: #fff; border-bottom: 1px solid #e5e5e5; display: flex; height: 49px; left: 0; line-height: 2.8rem; padding: 10px 0.6rem; ; position: relative; top: 0; width: 100%; }
 .touchweb-com_headerFilter .left { color: #999; display: block; font-size: 14px; padding: 0 10px; }
 .touchweb-com_headerFilter .title { color: #000; font-size: 17px; text-align: center; font-weight: bolder; line-height: 2.8rem; position: absolute; left: 3em; right: 3em; }
-.touchweb-com_headerFilter .title span { width: 100; display: block; }
+.touchweb-com_headerFilter .title span { width: 100%; display: block; }
 .touchweb-com_headerFilter .right { color: #e87e04; display: block; font-size: 14px; padding: 0 10px; position: absolute; right: 0rem; }
 .touchweb_mod_Filter .scrollContent { height: 100%; overflow: auto; padding-bottom: 20px; width: 100%; }
 .touchweb-com_listType { background-color: #fff; border-bottom: 1px solid #e5e5e5; border-top: 1px solid #e5e5e5; margin-top: 20px; }

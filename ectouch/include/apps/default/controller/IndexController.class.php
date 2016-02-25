@@ -121,14 +121,23 @@ class IndexController extends CommonController {
             if ($category_list) {
                 foreach ($category_list as $category) {
                     $subcate_list = model('Category')->get_cat_list($category['cat_id']);
-                    if ($subcate_list) {
+                    if ($category['style'] && $subcate_list) {
+                        //  分类的banner
 //                        $ads = model('Ad')->getAds($category['style']);
 //                        $this->assign('ads', $ads);
+//                        $list [] = [
+//                            'single_item' => ECTouch::view()->fetch('library/cate_banner.lbi')
+//                        ];
+                        //  分类名称
                         $this->assign('cate', [
-                            'name' => $category['cat_name'],
+                            'name' => 'cate_'.$category['style'],
                             'style' => $category['style'],
                             'url' => '/index.php?m=default&c=category&a=index&id='.$category['cat_id']
                         ]);
+                        $list [] = [
+                            'single_item' => ECTouch::view()->fetch('library/cate_header.lbi')
+                        ];
+
                         $this->assign('subcate_list', $subcate_list);
                         $list [] = array(
                             'single_item' => ECTouch::view()->fetch('library/async_catelist_index.lbi')
@@ -138,6 +147,7 @@ class IndexController extends CommonController {
             }
 
             echo json_encode($list);
+
             exit();
         } else {
             $this->redirect(url('index'));

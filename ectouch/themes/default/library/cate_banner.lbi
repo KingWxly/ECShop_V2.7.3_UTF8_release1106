@@ -1,0 +1,10 @@
+<!--banner滚动图片s-->
+  <div id="focus" class="focus ect-margin-tb">
+    <div class="hd">
+      <ul>
+      </ul>
+    </div>
+    <div class="bd">
+      {insert name='ads' id=1 num=3}
+    </div>
+  </div>

@@ -1,34 +1,23 @@
 <!-- 类目推荐 start-->
 <!--{if $category_list}-->
-<!--banner滚动图片s-->
-
-    <!--类目标题-->
-  <div class="index-classify">
-      <div class="cate_header">
-          <span>{$lang.$cate.name}</span>
-          <a href="{$cate.url}">{$lang.show_more}<img class="arrow_index_r"
-          src="__TPL__/images/arrow_r.jpg"></a>
-      </div>
-
-      <!-- 子类标题排列 -->
-      <div id="#{$cate.style}">
-          <!--{if $cate.style == 'hufu'}-->
-                  <ul class="ul-3 core clearfix">
-                      <li class="li-2 pad-left"><img src="__TPL__/images/subcate/洁面.png"><p>洁面<a>年终折扣疯狂</a></p></li>
-                      <li class="li-1"><img src="__TPL__/images/subcate/化妆水.png"><p>化妆水<a>年终折扣疯狂</a></p></li>
-                      <li class="li-1"><img src="__TPL__/images/subcate/精华.png"><p>精华<a>年终折扣疯狂</a></p></li>
-                      <li class="li-1"><img src="__TPL__/images/subcate/乳液、面霜.png"><p>乳液、面霜<a>年终折扣疯狂</a></p></li>
-                      <li class="li-1"><img src="__TPL__/images/subcate/面膜.png"><p>面膜<a>年终折扣疯狂</a></p></li>
-                      <li class="li-1 border-bottom-0"><img src="__TPL__/images/subcate/去角质.png"><p>去角质<a>年终折扣疯狂</a></p></li>
-                      <li class="li-1 border-bottom-0"><img src="__TPL__/images/subcate/眼部护理.png"><p>眼部护理<a>年终折扣疯狂</a></p></li>
-                      <li class="li-1 border-bottom-0">
-                          <p class="core-center">更多<img class="arrow_index_r1"
-                          src="__TPL__/images/arrow_r.jpg"><a>点击查看更多分类</a></p>
-                      </li>
-                  </ul>
-          <!--{/if}-->
-      </div>
+  <!-- 子类标题排列 -->
+  <!--{if $cate.style == 'hufu'}-->
+  <div class="cate_list">
+      <ul class="ul-3 core clearfix">
+          <a class="li-2 pad-left" href=""><img src="__TPL__/images/subcate/洁面.png"><p>洁面<span>年终折扣疯狂</span></p></a>
+          <a class="li-1" href=""><img src="__TPL__/images/subcate/化妆水.png"><p>化妆水<span>年终折扣疯狂</span></p></a>
+          <a class="li-1" href=""><img src="__TPL__/images/subcate/精华.png"><p>精华<span>年终折扣疯狂</span></p></a>
+          <a class="li-1" href=""><img src="__TPL__/images/subcate/乳液、面霜.png"><p>乳液、面霜<span>年终折扣疯狂</span></p></a>
+          <a class="li-1" href=""><img src="__TPL__/images/subcate/面膜.png"><p>面膜<span>年终折扣疯狂</span></p></a>
+          <a class="li-1" href=""><img src="__TPL__/images/subcate/去角质.png"><p>去角质<span>年终折扣疯狂</span></p></a>
+          <a class="li-1" href=""><img src="__TPL__/images/subcate/眼部护理.png"><p>眼部护理<span>年终折扣疯狂</span></p></a>
+          <a class="li-1" href="">
+              <p class="core-center">更多<img class="arrow_index_r1"
+              src="__TPL__/images/arrow_r.jpg"><span>点击查看更多分类</span></p>
+          </a>
+      </ul>
   </div>
+  <!--{/if}-->
 
 <!-- {/if}--> 
-<!-- 商品列表 end--> 
+
