@@ -1,1 +1,0 @@
- SELECT position_id  FROM xm_touch_ad_position WHERE position_desc = "mother_baby" 
