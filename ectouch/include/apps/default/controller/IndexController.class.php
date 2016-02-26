@@ -123,11 +123,18 @@ class IndexController extends CommonController {
                     $subcate_list = model('Category')->get_cat_list($category['cat_id']);
                     if ($category['style'] && $subcate_list) {
                         //  分类的banner
-//                        $ads = model('Ad')->getAds($category['style']);
-//                        $this->assign('ads', $ads);
-//                        $list [] = [
-//                            'single_item' => ECTouch::view()->fetch('library/cate_banner.lbi')
-//                        ];
+                        $position_id = model('Adposition')->getPositionId($category['style']);
+                        if ($position_id) {
+                            $ads = model('Ad')->getAds($position_id);
+                            if ($ads) {
+                                $this->assign('ads', $ads);
+                                $this->assign('id', $category['style'].'-banner');
+                                $list [] = [
+                                    'single_item' => ECTouch::view()->fetch('library/cate_banner.lbi')
+                                ];
+                            }
+                        }
+
                         //  分类名称
                         $this->assign('cate', [
                             'name' => 'cate_'.$category['style'],

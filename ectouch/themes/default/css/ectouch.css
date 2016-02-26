@@ -299,6 +299,9 @@ button { text-align: center; font-size: 0.8em; padding: 0.2em 0.4em; border-radi
 
 
 /* 分类列表 */
+.slider { text-align: center; overflow: hidden; position: relative; background: #999; width: 100%; float: left; }
+.slider-con { width: 1000%; white-space: nowrap; position: absolute; left: 0; }
+
 .cate_list { margin: 0; padding: 0; }
 .clearfix{ overflow: hidden; }
 .pad-left{ padding-left:1px; }

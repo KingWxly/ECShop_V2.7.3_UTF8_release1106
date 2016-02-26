@@ -1,10 +1,8 @@
 <!--banner滚动图片s-->
-  <div id="focus" class="focus ect-margin-tb">
-    <div class="hd">
-      <ul>
-      </ul>
+<section style="height: 6.786em;" class="slider" id="{$id}">
+    <div style="height: 6.786em; left: -26.786em;" id="slider-con-hufu-banner" class="slider-con">
+        <!--{foreach from=$ads item=ad name="cate_list"}-->
+            <a href="{$ad.ad_link}"><img src="{$ad.ad_code}"></a>
+        <!--{/foreach}-->
     </div>
-    <div class="bd">
-      {insert name='ads' id=1 num=3}
-    </div>
-  </div>
+</section>
