@@ -38,12 +38,46 @@ class CategoryModel extends BaseModel {
      * @return void
      */
     function get_cat_list($cat_id = 0) {
-//        return $this->query('SELECT * FROM ' . $this->pre . "category WHERE is_show = '1' and parent_id = '$cat_id'");
-
         $res = $this->query('SELECT * FROM ' . $this->pre . "category WHERE is_show = '1' and parent_id = '$cat_id'");
         $arr = array();
         $i = 0;
         foreach ($res as $row) {
+            $arr[$i] = $row;
+            $i++;
+        }
+        return $arr;
+    }
+
+    /**
+     * 根据id获取获得有有效商品的分类
+     *
+     * @param integer $cat_id
+     *
+     * @return void
+     */
+    function get_valid_cat_list($cat_id = 0) {
+        $sql = 'SELECT * FROM ' . $this->pre . 'category'
+            .' WHERE is_show = 1 and parent_id = '.$cat_id;
+        $res = $this->query($sql);
+        $cat_id_arr = array_column($res, 'cat_id');
+        $cat_id_str = implode(',', $cat_id_arr);
+        $arr = array();
+        $i = 0;
+
+        //  这里要用递归获取该分类下所有子分类
+
+        foreach ($res as $row) {
+            $sql2 = ' SELECT cat_id, count(*) as cnt FROM '.$this->pre.'goods'
+                .' WHERE cat_id in ('.$cat_id_str.')'
+                .' AND is_on_sale = 1 '
+                .' AND goods_number >= 1 '
+                .' GROUP BY cnt '
+                .' ORDER BY cnt DESC ';
+            $res2 = $this->query($sql2);
+            $count = $res2[0][0];
+            if ($count) {
+
+            }
             $arr[$i] = $row;
             $i++;
         }
