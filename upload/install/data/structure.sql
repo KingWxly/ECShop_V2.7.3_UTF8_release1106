@@ -348,6 +348,7 @@ CREATE TABLE `ecs_category` (
   `cat_name` varchar(90) NOT NULL default '',
   `keywords` varchar(255) NOT NULL default '',
   `cat_desc` varchar(255) NOT NULL default '',
+  `cat_icon` varchar(255) NOT NULL COMMENT '商品分类的图标',
   `parent_id` smallint(5) unsigned NOT NULL default '0',
   `sort_order` tinyint(1) unsigned NOT NULL default '50',
   `template_file` varchar(50) NOT NULL default '',
@@ -360,6 +361,62 @@ CREATE TABLE `ecs_category` (
   PRIMARY KEY  (`cat_id`),
   KEY `parent_id` (`parent_id`)
 )  TYPE=MyISAM;
+ALTER TABLE `xm_category` ADD  AFTER `cat_desc`;
+
+--
+--  导入数据`ecs_category`
+--
+INSERT INTO `xm_category` (`cat_id`, `cat_name`, `keywords`, `cat_desc`, `cat_icon`, `parent_id`, `sort_order`, `template_file`, `measure_unit`, `show_in_nav`, `style`, `is_show`, `grade`, `filter_attr`) VALUES
+(1, '护肤', '洁面, 精华, 乳液, 面膜', '护肤品', '', 0, 50, '', '', 1, 'hufu', 1, 0, '0'),
+(2, '彩妆', '霜, 液, 妆, 膏, 笔, 甲', '彩妆', '', 0, 50, '', '', 1, 'caizhuang', 1, 0, '0'),
+(3, '个人护理', '洗, 护, 口腔, 脱毛, 巾', '个人洗护,卫生', '', 0, 50, '', '', 1, 'personal_huli', 1, 0, '0'),
+(4, '香氛', '香水，精油', '香', '', 0, 50, '', '', 1, 'xiangfen', 1, 0, '0'),
+(5, '男士专区', '男士,套装，洗面，护肤', '那是洗护', '', 0, 50, '', '', 1, 'man_zone', 1, 0, '0'),
+(6, '家庭护理', '家具，家居，居家，厨房，厨卫，厕所,卫生', '家庭护理,厨卫洗化', '', 0, 50, '', '', 1, 'family_huli', 1, 0, '0'),
+(7, '母婴专区', '妈妈,孕妇,婴儿,婴孩,宝宝,baby', '母婴用品', '', 0, 50, '', '', 1, 'mother_baby', 1, 0, '0'),
+--  护肤  --
+(8, '洁面', '', '', '/themes/default/images/subcate/洁面.png', 1, 50, '', '', 1, '', 1, 0, '0'),
+(9, '化妆水', '', '', '/themes/default/images/subcate/化妆水.png', 1, 50, '', '', 1, '', 1, 0, '0'),
+(10, '精华', '', '', '/themes/default/images/subcate/精华.png', 1, 50, '', '', 1, '', 1, 0, '0'),
+(11, '乳液、面霜', '', '', '/themes/default/images/subcate/乳液、面霜.png', 1, 50, '', '', 1, '', 1, 0, '0'),
+(12, '面膜', '', '', '/themes/default/images/subcate/面膜.png', 1, 50, '', '', 1, '', 1, 0, '0'),
+(13, '去角质', '', '', '/themes/default/images/subcate/去角质.png', 1, 50, '', '', 1, '', 1, 0, '0'),
+(14, '眼部护理', '', '', '/themes/default/images/subcate/眼部护理.png', 1, 50, '', '', 1, '', 1, 0, '0'),
+--  彩妆  --
+(15, 'BB霜', '', '', '/themes/default/images/subcate/BB霜.png', 2, 50, '', '', 1, '', 1, 0, '0'),
+(16, '粉底液', '', '', '/themes/default/images/subcate/粉底液.png', 2, 50, '', '', 1, '', 1, 0, '0'),
+(17, '睫毛膏', '', '', '/themes/default/images/subcate/睫毛膏.png', 2, 50, '', '', 1, '', 1, 0, '0'),
+(18, '美唇', '', '', '/themes/default/images/subcate/美唇.png', 2, 50, '', '', 1, '', 1, 0, '0'),
+(19, '眉粉、眉笔', '', '', '/themes/default/images/subcate/眉粉、眉笔.png', 2, 50, '', '', 1, '', 1, 0, '0'),
+(20, '卸妆', '', '', '/themes/default/images/subcate/卸妆.png', 2, 50, '', '', 1, '', 1, 0, '0'),
+(21, '美甲', '', '', '/themes/default/images/subcate/美甲.png', 2, 50, '', '', 1, '', 1, 0, '0'),
+--  个人护理  --
+(22, '洗发护发', '', '', '/themes/default/images/subcate/洗发护发.png', 3, 50, '', '', 1, '', 1, 0, '0'),
+(23, '口腔护理', '', '', '/themes/default/images/subcate/口腔护理.png', 3, 50, '', '', 1, '', 1, 0, '0'),
+(24, '身体护理', '', '', '/themes/default/images/subcate/身体护理.png', 3, 50, '', '', 1, '', 1, 0, '0'),
+(25, '脱毛', '', '', '/themes/default/images/subcate/脱毛.png', 3, 50, '', '', 1, '', 1, 0, '0'),
+(26, '女性护理', '', '', '/themes/default/images/subcate/女性护理.png', 3, 50, '', '', 1, '', 1, 0, '0'),
+--  香氛  --
+(27, '女士香水', '', '', '/themes/default/images/subcate/女士香水.png', 4, 50, '', '', 1, '', 1, 0, '0'),
+(28, 'Q版香水', '', '', '/themes/default/images/subcate/Q版香水.png', 4, 50, '', '', 1, '', 1, 0, '0'),
+(29, '男士香水', '', '', '/themes/default/images/subcate/男士香水.png', 4, 50, '', '', 1, '', 1, 0, '0'),
+(30, '中性香水', '', '', '/themes/default/images/subcate/中性香水.png', 4, 50, '', '', 1, '', 1, 0, '0'),
+(31, '精油香氛', '', '', '/themes/default/images/subcate/精油香氛.png', 4, 50, '', '', 1, '', 1, 0, '0'),
+(32, '套装', '', '', '/themes/default/images/subcate/套装.png', 4, 50, '', '', 1, '', 1, 0, '0'),
+--  男士专区  --
+(33, '男士护肤', '', '', '/themes/default/images/subcate/男士护肤.png', 5, 50, '', '', 1, '', 1, 0, '0'),
+(34, '个人护理', '', '', '/themes/default/images/subcate/个人护理.png', 5, 50, '', '', 1, '', 1, 0, '0'),
+(35, '套装', '', '', '/themes/default/images/subcate/套装.png', 5, 50, '', '', 1, '', 1, 0, '0'),
+(36, '男士彩妆', '', '', '/themes/default/images/subcate/男士彩妆.png', 5, 50, '', '', 1, '', 1, 0, '0'),
+--  家庭护理  --
+(37, '家居护理', '', '', '/themes/default/images/subcate/家居护理.png', 6, 50, '', '', 1, '', 1, 0, '0'),
+(38, '家具护理', '', '', '/themes/default/images/subcate/家具护理.png', 6, 50, '', '', 1, '', 1, 0, '0'),
+(39, '厨房护理', '', '', '/themes/default/images/subcate/厨房护理.png', 6, 50, '', '', 1, '', 1, 0, '0'),
+(40, '厕卫护理', '', '', '/themes/default/images/subcate/厕卫护理.png', 6, 50, '', '', 1, '', 1, 0, '0'),
+--  母婴专区  --
+(41, '母婴系列', '', '', '/themes/default/images/subcate/母婴系列.png', 7, 50, '', '', 1, '', 1, 0, '0'),
+(42, '纸尿裤', '', '', '/themes/default/images/subcate/纸尿裤.png', 7, 50, '', '', 1, '', 1, 0, '0'),
+(43, '孕妇系列', '', '', '/themes/default/images/subcate/孕妇系列.png', 7, 50, '', '', 1, '', 1, 0, '0');
 
 -- --------------------------------------------------------
 

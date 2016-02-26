@@ -144,8 +144,8 @@ class IndexController extends CommonController {
                         $list [] = [
                             'single_item' => ECTouch::view()->fetch('library/cate_header.lbi')
                         ];
-
                         $this->assign('subcate_list', $subcate_list);
+                        $this->assign('valid_count', count($subcate_list));
                         $list [] = array(
                             'single_item' => ECTouch::view()->fetch('library/async_catelist_index.lbi')
                         );

@@ -38,7 +38,16 @@ class CategoryModel extends BaseModel {
      * @return void
      */
     function get_cat_list($cat_id = 0) {
-        return $this->query('SELECT * FROM ' . $this->pre . "category WHERE is_show = '1' and parent_id = '$cat_id'");
+//        return $this->query('SELECT * FROM ' . $this->pre . "category WHERE is_show = '1' and parent_id = '$cat_id'");
+
+        $res = $this->query('SELECT * FROM ' . $this->pre . "category WHERE is_show = '1' and parent_id = '$cat_id'");
+        $arr = array();
+        $i = 0;
+        foreach ($res as $row) {
+            $arr[$i] = $row;
+            $i++;
+        }
+        return $arr;
     }
 
     /**

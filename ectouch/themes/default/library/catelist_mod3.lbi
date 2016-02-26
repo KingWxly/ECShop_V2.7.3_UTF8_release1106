@@ -1,0 +1,6 @@
+<a class="li-1 border-bottom border-right " href="/index.php?c=category&a=top_all">
+    <p class="core-center">{$lang.show_more}
+        <img class="arrow_index_r1" src="__TPL__/images/arrow_r.jpg">
+        <span>点击查看更多分类</span>
+    </p>
+</a>

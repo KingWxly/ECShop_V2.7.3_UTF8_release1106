@@ -1,23 +1,27 @@
 <!-- 类目推荐 start-->
-<!--{if $category_list}-->
+<!--{if $subcate_list}-->
   <!-- 子类标题排列 -->
   <!--{if $cate.style == 'hufu'}-->
+
   <div class="cate_list">
       <ul class="ul-3 core clearfix">
-          <a class="li-1 num1" href=""><p>洁面<span>年终折扣疯狂</span></p></a>
-          <a class="li-1 num2" href=""><img src="__TPL__/images/subcate/洁面.png"></a>
-          <a class="li-1 num3" href=""><img src="__TPL__/images/subcate/化妆水.png"><p>化妆水<span>年终折扣疯狂</span></p></a>
-          <a class="li-1 num4" href=""><img src="__TPL__/images/subcate/精华.png"><p>精华<span>年终折扣疯狂</span></p></a>
-          <a class="li-1 num5" href=""><img src="__TPL__/images/subcate/乳液、面霜.png"><p>乳液、面霜<span>年终折扣疯狂</span></p></a>
-          <a class="li-1 num6" href=""><img src="__TPL__/images/subcate/面膜.png"><p>面膜<span>年终折扣疯狂</span></p></a>
-          <a class="li-1 num7" href=""><img src="__TPL__/images/subcate/去角质.png"><p>去角质<span>年终折扣疯狂</span></p></a>
-          <a class="li-1 num8" href=""><img src="__TPL__/images/subcate/眼部护理.png"><p>眼部护理<span>年终折扣疯狂</span></p></a>
-          <a class="li-1 num9" href="">
-              <p class="core-center">更多<img class="arrow_index_r1" src="__TPL__/images/arrow_r.jpg"><span>点击查看更多分类</span></p>
-          </a>
+      <!--{foreach from=$subcate_list key=k item=subcate name="sub_cate" }-->
+        <!--{if $k==0 && in_array($valid_count, [1, 2, 4, 5, 7])}-->
+            {include file='library/catelist_mod2.lbi '}
+        <!--{elseif $k==3 && in_array($valid_count, [4, 8])}-->
+            {include file='library/catelist_mod2.lbi '}
+        <!--{elseif $k==6 && $valid_count == 7}-->
+            {include file='library/catelist_mod2.lbi '}
+        <!--{else}-->
+            {include file='library/catelist_mod1.lbi '}
+        <!--{/if}-->
+      <!--{/foreach}-->
+
+      <!--{if $valid_count == 1}-->
+        {include file='library/catelist_mod3.lbi '}
+      <!--{/if}-->
       </ul>
   </div>
   <!--{/if}-->
 
-<!-- {/if}--> 
-
+<!-- {/if}-->

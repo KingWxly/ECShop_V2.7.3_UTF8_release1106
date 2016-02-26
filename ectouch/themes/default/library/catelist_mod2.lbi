@@ -1,0 +1,6 @@
+<a class="li-1 border-bottom border-left" href="">
+    <p>{$subcate.cat_name}<span>{$subcate.cat_desc}</span></p>
+</a>
+<a class="li-1 border-bottom border-right" href="">
+    <img src="{$subcate.cat_icon}">
+</a>
