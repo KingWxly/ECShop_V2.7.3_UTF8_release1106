@@ -120,7 +120,7 @@ class IndexController extends CommonController {
             $category_list = model('Category')->get_cat_list(0);
             if ($category_list) {
                 foreach ($category_list as $category) {
-                    $subcate_list = model('Category')->get_cat_list($category['cat_id']);
+                    $subcate_list = model('Category')->get_valid_cat_list($category['cat_id']);
                     if ($category['style'] && $subcate_list) {
                         //  分类的banner
                         $position_id = model('Adposition')->getPositionId($category['style']);

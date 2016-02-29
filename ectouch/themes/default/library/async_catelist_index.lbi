@@ -1,8 +1,6 @@
 <!-- 类目推荐 start-->
 <!--{if $subcate_list}-->
   <!-- 子类标题排列 -->
-  <!--{if $cate.style == 'hufu'}-->
-
   <div class="cate_list">
       <ul class="ul-3 core clearfix">
       <!--{foreach from=$subcate_list key=k item=subcate name="sub_cate" }-->
@@ -22,6 +20,5 @@
       <!--{/if}-->
       </ul>
   </div>
-  <!--{/if}-->
 
 <!-- {/if}-->

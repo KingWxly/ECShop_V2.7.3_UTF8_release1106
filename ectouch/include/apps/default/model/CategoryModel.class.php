@@ -49,39 +49,52 @@ class CategoryModel extends BaseModel {
     }
 
     /**
-     * 根据id获取获得有有效商品的分类
+     * 根据一级分类id获取获得有效的二级商品的分类
      *
      * @param integer $cat_id
      *
      * @return void
      */
-    function get_valid_cat_list($cat_id = 0) {
+    function get_valid_cat_list($cat_id) {
         $sql = 'SELECT * FROM ' . $this->pre . 'category'
             .' WHERE is_show = 1 and parent_id = '.$cat_id;
         $res = $this->query($sql);
+        $arr = array();
+        foreach ($res as $cat) {
+            $arr[$cat['cat_id']] = $cat;
+        }
         $cat_id_arr = array_column($res, 'cat_id');
         $cat_id_str = implode(',', $cat_id_arr);
-        $arr = array();
-        $i = 0;
 
-        //  这里要用递归获取该分类下所有子分类
-
-        foreach ($res as $row) {
-            $sql2 = ' SELECT cat_id, count(*) as cnt FROM '.$this->pre.'goods'
-                .' WHERE cat_id in ('.$cat_id_str.')'
-                .' AND is_on_sale = 1 '
-                .' AND goods_number >= 1 '
-                .' GROUP BY cnt '
-                .' ORDER BY cnt DESC ';
-            $res2 = $this->query($sql2);
-            $count = $res2[0][0];
-            if ($count) {
-
-            }
-            $arr[$i] = $row;
-            $i++;
+        //  这里要用递归获取该分类下所有子分类。当前值设二级分类，不需要递归
+        $result = array();
+        $sql2 = ' SELECT cat_id, count(*) as cnt FROM '.$this->pre.'goods'
+            .' WHERE cat_id in ('.$cat_id_str.')'
+            .' AND is_on_sale = 1 '
+            .' AND goods_number >= 1 '
+            .' GROUP BY cat_id '
+            .' ORDER BY cnt DESC ';
+        $res2 = $this->query($sql2);
+        if (!$res2) {
+            return [];
         }
-        return $arr;
+        foreach ($res2 as $item) {
+            if ($item['cnt']) {
+                $row = $arr[$item['cat_id']];
+                $row['cnt'] = $item['cnt'];
+                $result[] = $row;
+            }
+        }
+
+        //  按分类下可销售商品的spu倒序排列
+        usort($result, function($a, $b) {
+            if ($a['cnt'] == $b['cnt']) {
+                return 0;
+            } else {
+                return ($a['cnt'] > $b['cnt']) ? -1 : 1;
+            }
+        });
+        return $result;
     }
 
     /**
